@@ -1,0 +1,888 @@
+     Pclass  Sex    Age  Siblings/Spouses Aboard  Parents/Children Aboard      Fare                                                                             values  targets
+0       3.0  1.0  22.00                      1.0                      0.0    7.2500                                                             Mr. Owen Harris Braund        0
+1       1.0  0.0  38.00                      1.0                      0.0   71.2833                                 Mrs. John Bradley (Florence Briggs Thayer) Cumings        1
+2       3.0  0.0  26.00                      0.0                      0.0    7.9250                                                              Miss. Laina Heikkinen        1
+3       1.0  0.0  35.00                      1.0                      0.0   53.1000                                        Mrs. Jacques Heath (Lily May Peel) Futrelle        1
+4       3.0  1.0  35.00                      0.0                      0.0    8.0500                                                            Mr. William Henry Allen        0
+5       3.0  1.0  27.00                      0.0                      0.0    8.4583                                                                    Mr. James Moran        0
+6       1.0  1.0  54.00                      0.0                      0.0   51.8625                                                             Mr. Timothy J McCarthy        0
+7       3.0  1.0   2.00                      3.0                      1.0   21.0750                                                      Master. Gosta Leonard Palsson        0
+8       3.0  0.0  27.00                      0.0                      2.0   11.1333                                   Mrs. Oscar W (Elisabeth Vilhelmina Berg) Johnson        1
+9       2.0  0.0  14.00                      1.0                      0.0   30.0708                                                 Mrs. Nicholas (Adele Achem) Nasser        1
+10      3.0  0.0   4.00                      1.0                      1.0   16.7000                                                     Miss. Marguerite Rut Sandstrom        1
+11      1.0  0.0  58.00                      0.0                      0.0   26.5500                                                            Miss. Elizabeth Bonnell        1
+12      3.0  1.0  20.00                      0.0                      0.0    8.0500                                                      Mr. William Henry Saundercock        0
+13      3.0  1.0  39.00                      1.0                      5.0   31.2750                                                         Mr. Anders Johan Andersson        0
+14      3.0  0.0  14.00                      0.0                      0.0    7.8542                                                Miss. Hulda Amanda Adolfina Vestrom        0
+15      2.0  0.0  55.00                      0.0                      0.0   16.0000                                                     Mrs. (Mary D Kingcome) Hewlett        1
+16      3.0  1.0   2.00                      4.0                      1.0   29.1250                                                                Master. Eugene Rice        0
+17      2.0  1.0  23.00                      0.0                      0.0   13.0000                                                        Mr. Charles Eugene Williams        1
+18      3.0  0.0  31.00                      1.0                      0.0   18.0000                             Mrs. Julius (Emelia Maria Vandemoortele) Vander Planke        0
+19      3.0  0.0  22.00                      0.0                      0.0    7.2250                                                             Mrs. Fatima Masselmani        1
+20      2.0  1.0  35.00                      0.0                      0.0   26.0000                                                                Mr. Joseph J Fynney        0
+21      2.0  1.0  34.00                      0.0                      0.0   13.0000                                                               Mr. Lawrence Beesley        1
+22      3.0  0.0  15.00                      0.0                      0.0    8.0292                                                                 Miss. Anna McGowan        1
+23      1.0  1.0  28.00                      0.0                      0.0   35.5000                                                        Mr. William Thompson Sloper        1
+24      3.0  0.0   8.00                      3.0                      1.0   21.0750                                                       Miss. Torborg Danira Palsson        0
+25      3.0  0.0  38.00                      1.0                      5.0   31.3875                           Mrs. Carl Oscar (Selma Augusta Emilia Johansson) Asplund        1
+26      3.0  1.0  26.00                      0.0                      0.0    7.2250                                                             Mr. Farred Chehab Emir        0
+27      1.0  1.0  19.00                      3.0                      2.0  263.0000                                                      Mr. Charles Alexander Fortune        0
+28      3.0  0.0  24.00                      0.0                      0.0    7.8792                                                                Miss. Ellen O'Dwyer        1
+29      3.0  1.0  23.00                      0.0                      0.0    7.8958                                                                 Mr. Lalio Todoroff        0
+30      1.0  1.0  40.00                      0.0                      0.0   27.7208                                                            Don. Manuel E Uruchurtu        0
+31      1.0  0.0  48.00                      1.0                      0.0  146.5208                                      Mrs. William Augustus (Marie Eugenie) Spencer        1
+32      3.0  0.0  18.00                      0.0                      0.0    7.7500                                                            Miss. Mary Agatha Glynn        1
+33      2.0  1.0  66.00                      0.0                      0.0   10.5000                                                               Mr. Edward H Wheadon        0
+34      1.0  1.0  28.00                      1.0                      0.0   82.1708                                                             Mr. Edgar Joseph Meyer        0
+35      1.0  1.0  42.00                      1.0                      0.0   52.0000                                                      Mr. Alexander Oskar Holverson        0
+36      3.0  1.0  18.00                      0.0                      0.0    7.2292                                                                    Mr. Hanna Mamee        1
+37      3.0  1.0  21.00                      0.0                      0.0    8.0500                                                            Mr. Ernest Charles Cann        0
+38      3.0  0.0  18.00                      2.0                      0.0   18.0000                                                  Miss. Augusta Maria Vander Planke        0
+39      3.0  0.0  14.00                      1.0                      0.0   11.2417                                                         Miss. Jamila Nicola-Yarred        1
+40      3.0  0.0  40.00                      1.0                      0.0    9.4750                                      Mrs. Johan (Johanna Persdotter Larsson) Ahlin        0
+41      2.0  0.0  27.00                      1.0                      0.0   21.0000                            Mrs. William John Robert (Dorothy Ann Wonnacott) Turpin        0
+42      2.0  0.0   3.00                      1.0                      2.0   41.5792                                            Miss. Simonne Marie Anne Andree Laroche        1
+43      3.0  0.0  19.00                      0.0                      0.0    7.8792                                                       Miss. Margaret Delia Devaney        1
+44      3.0  1.0  30.00                      0.0                      0.0    8.0500                                                            Mr. William John Rogers        0
+45      3.0  1.0  20.00                      1.0                      0.0   15.5000                                                                   Mr. Denis Lennon        0
+46      3.0  0.0  27.00                      0.0                      0.0    7.7500                                                           Miss. Bridget O'Driscoll        1
+47      3.0  1.0  16.00                      2.0                      0.0   21.6792                                                                 Mr. Youssef Samaan        0
+48      3.0  0.0  18.00                      1.0                      0.0   17.8000                                       Mrs. Josef (Josefine Franchi) Arnold-Franchi        0
+49      3.0  1.0   7.00                      4.0                      1.0   39.6875                                                          Master. Juha Niilo Panula        0
+50      3.0  1.0  21.00                      0.0                      0.0    7.8000                                                        Mr. Richard Cater Nosworthy        0
+51      1.0  0.0  49.00                      1.0                      0.0   76.7292                                            Mrs. Henry Sleeper (Myna Haxtun) Harper        1
+52      2.0  0.0  29.00                      1.0                      0.0   26.0000                                  Mrs. Lizzie (Elizabeth Anne Wilkinson) Faunthorpe        1
+53      1.0  1.0  65.00                      0.0                      1.0   61.9792                                                      Mr. Engelhart Cornelius Ostby        0
+54      1.0  1.0  46.00                      0.0                      0.0   35.5000                                                                   Mr. Hugh Woolner        1
+55      2.0  0.0  21.00                      0.0                      0.0   10.5000                                                                   Miss. Emily Rugg        1
+56      3.0  1.0  28.50                      0.0                      0.0    7.2292                                                                 Mr. Mansouer Novel        0
+57      2.0  0.0   5.00                      1.0                      2.0   27.7500                                                        Miss. Constance Mirium West        1
+58      3.0  1.0  11.00                      5.0                      2.0   46.9000                                                  Master. William Frederick Goodwin        0
+59      3.0  1.0  22.00                      0.0                      0.0    7.2292                                                               Mr. Orsen Sirayanian        0
+60      1.0  0.0  38.00                      0.0                      0.0   80.0000                                                                 Miss. Amelie Icard        1
+61      1.0  1.0  45.00                      1.0                      0.0   83.4750                                                         Mr. Henry Birkhardt Harris        0
+62      3.0  1.0   4.00                      3.0                      2.0   27.9000                                                               Master. Harald Skoog        0
+63      1.0  1.0  64.00                      0.0                      0.0   27.7208                                                               Mr. Albert A Stewart        0
+64      3.0  1.0   7.00                      1.0                      1.0   15.2458                                                            Master. Gerios Moubarek        1
+65      2.0  0.0  29.00                      0.0                      0.0   10.5000                                                        Mrs. (Elizabeth Ramell) Nye        1
+66      3.0  1.0  19.00                      0.0                      0.0    8.1583                                                            Mr. Ernest James Crease        0
+67      3.0  0.0  17.00                      4.0                      2.0    7.9250                                                     Miss. Erna Alexandra Andersson        1
+68      3.0  1.0  26.00                      2.0                      0.0    8.6625                                                                   Mr. Vincenz Kink        0
+69      2.0  1.0  32.00                      0.0                      0.0   10.5000                                                          Mr. Stephen Curnow Jenkin        0
+70      3.0  0.0  16.00                      5.0                      2.0   46.9000                                                          Miss. Lillian Amy Goodwin        0
+71      2.0  1.0  21.00                      0.0                      0.0   73.5000                                                                Mr. Ambrose Jr Hood        0
+72      3.0  1.0  26.00                      1.0                      0.0   14.4542                                                         Mr. Apostolos Chronopoulos        0
+73      3.0  1.0  32.00                      0.0                      0.0   56.4958                                                                       Mr. Lee Bing        1
+74      3.0  1.0  25.00                      0.0                      0.0    7.6500                                                             Mr. Sigurd Hansen Moen        0
+75      3.0  1.0  23.00                      0.0                      0.0    7.8958                                                                   Mr. Ivan Staneff        0
+76      3.0  1.0  28.00                      0.0                      0.0    8.0500                                                            Mr. Rahamin Haim Moutal        0
+77      2.0  1.0   0.83                      0.0                      2.0   29.0000                                                       Master. Alden Gates Caldwell        1
+78      3.0  0.0  30.00                      0.0                      0.0   12.4750                                                            Miss. Elizabeth Dowdell        1
+79      3.0  1.0  22.00                      0.0                      0.0    9.0000                                                                Mr. Achille Waelens        0
+80      3.0  1.0  29.00                      0.0                      0.0    9.5000                                                         Mr. Jan Baptist Sheerlinck        1
+81      3.0  0.0  31.00                      0.0                      0.0    7.7875                                                      Miss. Brigdet Delia McDermott        1
+82      1.0  1.0  28.00                      0.0                      0.0   47.1000                                                             Mr. Francisco M Carrau        0
+83      2.0  0.0  17.00                      0.0                      0.0   10.5000                                                                 Miss. Bertha Ilett        1
+84      3.0  0.0  33.00                      3.0                      0.0   15.8500                             Mrs. Karl Alfred (Maria Mathilda Gustafsson) Backstrom        1
+85      3.0  1.0  16.00                      1.0                      3.0   34.3750                                                              Mr. William Neal Ford        0
+86      3.0  1.0  20.00                      0.0                      0.0    8.0500                                                       Mr. Selman Francis Slocovski        0
+87      1.0  0.0  23.00                      3.0                      2.0  263.0000                                                          Miss. Mabel Helen Fortune        1
+88      3.0  1.0  24.00                      0.0                      0.0    8.0500                                                              Mr. Francesco Celotti        0
+89      3.0  1.0  29.00                      0.0                      0.0    8.0500                                                                Mr. Emil Christmann        0
+90      3.0  1.0  20.00                      0.0                      0.0    7.8542                                                          Mr. Paul Edvin Andreasson        0
+91      1.0  1.0  46.00                      1.0                      0.0   61.1750                                                         Mr. Herbert Fuller Chaffee        0
+92      3.0  1.0  26.00                      1.0                      2.0   20.5750                                                             Mr. Bertram Frank Dean        0
+93      3.0  1.0  59.00                      0.0                      0.0    7.2500                                                                   Mr. Daniel Coxon        0
+94      3.0  1.0  22.00                      0.0                      0.0    8.0500                                                         Mr. Charles Joseph Shorney        0
+95      1.0  1.0  71.00                      0.0                      0.0   34.6542                                                           Mr. George B Goldschmidt        0
+96      1.0  1.0  23.00                      0.0                      1.0   63.3583                                                     Mr. William Bertram Greenfield        1
+97      2.0  0.0  34.00                      0.0                      1.0   23.0000                                                Mrs. John T (Ada Julia Bone) Doling        1
+98      2.0  1.0  34.00                      1.0                      0.0   26.0000                                                                   Mr. Sinai Kantor        0
+99      3.0  0.0  28.00                      0.0                      0.0    7.8958                                                             Miss. Matilda Petranec        0
+100     3.0  1.0  29.00                      0.0                      0.0    7.8958                                                                Mr. Pastcho Petroff        0
+101     1.0  1.0  21.00                      0.0                      1.0   77.2875                                                           Mr. Richard Frasar White        0
+102     3.0  1.0  33.00                      0.0                      0.0    8.6542                                                          Mr. Gustaf Joel Johansson        0
+103     3.0  1.0  37.00                      2.0                      0.0    7.9250                                                      Mr. Anders Vilhelm Gustafsson        0
+104     3.0  1.0  28.00                      0.0                      0.0    7.8958                                                               Mr. Stoytcho Mionoff        0
+105     3.0  0.0  21.00                      0.0                      0.0    7.6500                                                    Miss. Anna Kristine Salkjelsvik        1
+106     3.0  1.0  29.00                      0.0                      0.0    7.7750                                                              Mr. Albert Johan Moss        1
+107     3.0  1.0  38.00                      0.0                      0.0    7.8958                                                                     Mr. Tido Rekic        0
+108     3.0  0.0  28.00                      1.0                      0.0   24.1500                                                                 Miss. Bertha Moran        1
+109     1.0  1.0  47.00                      0.0                      0.0   52.0000                                                      Mr. Walter Chamberlain Porter        0
+110     3.0  0.0  14.50                      1.0                      0.0   14.4542                                                                Miss. Hileni Zabour        0
+111     3.0  1.0  22.00                      0.0                      0.0    8.0500                                                              Mr. David John Barton        0
+112     3.0  0.0  20.00                      1.0                      0.0    9.8250                                                             Miss. Katriina Jussila        0
+113     3.0  0.0  17.00                      0.0                      0.0   14.4583                                                               Miss. Malake Attalah        0
+114     3.0  1.0  21.00                      0.0                      0.0    7.9250                                                               Mr. Edvard Pekoniemi        0
+115     3.0  1.0  70.50                      0.0                      0.0    7.7500                                                                Mr. Patrick Connors        0
+116     2.0  1.0  29.00                      1.0                      0.0   21.0000                                                     Mr. William John Robert Turpin        0
+117     1.0  1.0  24.00                      0.0                      1.0  247.5208                                                            Mr. Quigg Edmond Baxter        0
+118     3.0  0.0   2.00                      4.0                      2.0   31.2750                                                   Miss. Ellis Anna Maria Andersson        0
+119     2.0  1.0  21.00                      2.0                      0.0   73.5000                                                         Mr. Stanley George Hickman        0
+120     3.0  1.0  19.00                      0.0                      0.0    8.0500                                                          Mr. Leonard Charles Moore        0
+121     2.0  1.0  32.50                      1.0                      0.0   30.0708                                                                Mr. Nicholas Nasser        0
+122     2.0  0.0  32.50                      0.0                      0.0   13.0000                                                                 Miss. Susan Webber        1
+123     1.0  1.0  54.00                      0.0                      1.0   77.2875                                                         Mr. Percival Wayland White        0
+124     3.0  1.0  12.00                      1.0                      0.0   11.2417                                                        Master. Elias Nicola-Yarred        1
+125     3.0  1.0  19.00                      0.0                      0.0    7.7500                                                                 Mr. Martin McMahon        0
+126     3.0  1.0  24.00                      0.0                      0.0    7.1417                                                           Mr. Fridtjof Arne Madsen        1
+127     3.0  0.0   2.00                      1.0                      1.0   22.3583                                                                   Miss. Anna Peter        1
+128     3.0  1.0  45.00                      0.0                      0.0    6.9750                                                                  Mr. Johan Ekstrom        0
+129     3.0  1.0  33.00                      0.0                      0.0    7.8958                                                                Mr. Jozef Drazenoic        0
+130     3.0  1.0  20.00                      0.0                      0.0    7.0500                                                      Mr. Domingos Fernandeo Coelho        0
+131     3.0  0.0  47.00                      1.0                      0.0   14.5000                                      Mrs. Alexander A (Grace Charity Laury) Robins        0
+132     2.0  0.0  29.00                      1.0                      0.0   26.0000                                       Mrs. Leopold (Mathilde Francoise Pede) Weisz        1
+133     2.0  1.0  25.00                      0.0                      0.0   13.0000                                                      Mr. Samuel James Hayden Sobey        0
+134     2.0  1.0  23.00                      0.0                      0.0   15.0458                                                                  Mr. Emile Richard        0
+135     1.0  0.0  19.00                      0.0                      2.0   26.2833                                                        Miss. Helen Monypeny Newsom        1
+136     1.0  1.0  37.00                      1.0                      0.0   53.1000                                                         Mr. Jacques Heath Futrelle        0
+137     3.0  1.0  16.00                      0.0                      0.0    9.2167                                                                 Mr. Olaf Elon Osen        0
+138     1.0  1.0  24.00                      0.0                      0.0   79.2000                                                                  Mr. Victor Giglio        0
+139     3.0  0.0  40.00                      0.0                      2.0   15.2458                                                       Mrs. Joseph (Sultana) Boulos        0
+140     3.0  0.0  22.00                      0.0                      0.0    7.7500                                                            Miss. Anna Sofia Nysten        1
+141     3.0  0.0  24.00                      1.0                      0.0   15.8500                                Mrs. Pekka Pietari (Elin Matilda Dolck) Hakkarainen        1
+142     3.0  1.0  19.00                      0.0                      0.0    6.7500                                                                 Mr. Jeremiah Burke        0
+143     2.0  1.0  18.00                      0.0                      0.0   11.5000                                                          Mr. Edgardo Samuel Andrew        0
+144     2.0  1.0  19.00                      1.0                      1.0   36.7500                                                        Mr. Joseph Charles Nicholls        0
+145     3.0  1.0  27.00                      0.0                      0.0    7.7958                                                        Mr. August Edvard Andersson        1
+146     3.0  0.0   9.00                      2.0                      2.0   34.3750                                                           Miss. Robina Maggie Ford        0
+147     2.0  1.0  36.50                      0.0                      2.0   26.0000                                                                Mr. Michel Navratil        0
+148     2.0  1.0  42.00                      0.0                      0.0   13.0000                                                   Rev. Thomas Roussel Davids Byles        0
+149     2.0  1.0  51.00                      0.0                      0.0   12.5250                                                          Rev. Robert James Bateman        0
+150     1.0  0.0  22.00                      1.0                      0.0   66.6000                                                   Mrs. Thomas (Edith Wearne) Pears        1
+151     3.0  1.0  55.50                      0.0                      0.0    8.0500                                                                    Mr. Alfonzo Meo        0
+152     3.0  1.0  40.50                      0.0                      2.0   14.5000                                                     Mr. Austin Blyler van Billiard        0
+153     3.0  1.0  27.00                      0.0                      0.0    7.3125                                                               Mr. Ole Martin Olsen        0
+154     1.0  1.0  51.00                      0.0                      1.0   61.3792                                                         Mr. Charles Duane Williams        0
+155     3.0  0.0  16.00                      0.0                      0.0    7.7333                                                            Miss. Katherine Gilnagh        1
+156     3.0  1.0  30.00                      0.0                      0.0    8.0500                                                                     Mr. Harry Corn        0
+157     3.0  1.0  37.00                      0.0                      0.0    8.6625                                                                 Mr. Mile Smiljanic        0
+158     3.0  1.0   5.00                      8.0                      2.0   69.5500                                                          Master. Thomas Henry Sage        0
+159     3.0  1.0  44.00                      0.0                      1.0   16.1000                                                            Mr. John Hatfield Cribb        0
+160     2.0  0.0  40.00                      0.0                      0.0   15.7500                                           Mrs. James (Elizabeth Inglis Milne) Watt        1
+161     3.0  1.0  26.00                      0.0                      0.0    7.7750                                                          Mr. John Viktor Bengtsson        0
+162     3.0  1.0  17.00                      0.0                      0.0    8.6625                                                                     Mr. Jovo Calic        0
+163     3.0  1.0   1.00                      4.0                      1.0   39.6875                                                        Master. Eino Viljami Panula        0
+164     3.0  1.0   9.00                      0.0                      2.0   20.5250                                               Master. Frank John William Goldsmith        1
+165     1.0  0.0  48.00                      0.0                      1.0   55.0000                                              Mrs. (Edith Martha Bowerman) Chibnall        1
+166     3.0  0.0  45.00                      1.0                      4.0   27.9000                                     Mrs. William (Anna Bernhardina Karlsson) Skoog        0
+167     1.0  1.0  60.00                      0.0                      0.0   25.9250                                                                 Mr. John D Baumann        0
+168     3.0  1.0  28.00                      0.0                      0.0   56.4958                                                                       Mr. Lee Ling        0
+169     1.0  1.0  61.00                      0.0                      0.0   33.5000                                                           Mr. Wyckoff Van der hoef        0
+170     3.0  1.0   4.00                      4.0                      1.0   29.1250                                                                Master. Arthur Rice        0
+171     3.0  0.0   1.00                      1.0                      1.0   11.1333                                                        Miss. Eleanor Ileen Johnson        1
+172     3.0  1.0  21.00                      0.0                      0.0    7.9250                                                           Mr. Antti Wilhelm Sivola        0
+173     1.0  1.0  56.00                      0.0                      0.0   30.6958                                                             Mr. James Clinch Smith        0
+174     3.0  1.0  18.00                      1.0                      1.0    7.8542                                                              Mr. Klas Albin Klasen        0
+175     3.0  1.0   5.00                      3.0                      1.0   25.4667                                                       Master. Henry Forbes Lefebre        0
+176     1.0  0.0  50.00                      0.0                      0.0   28.7125                                                          Miss. Ann Elizabeth Isham        0
+177     2.0  1.0  30.00                      0.0                      0.0   13.0000                                                                  Mr. Reginald Hale        0
+178     3.0  1.0  36.00                      0.0                      0.0    0.0000                                                                 Mr. Lionel Leonard        0
+179     3.0  0.0   8.00                      8.0                      2.0   69.5500                                                        Miss. Constance Gladys Sage        0
+180     2.0  1.0  39.00                      0.0                      0.0   15.0500                                                                    Mr. Rene Pernot        0
+181     3.0  1.0   9.00                      4.0                      2.0   31.3875                                               Master. Clarence Gustaf Hugo Asplund        0
+182     2.0  1.0   1.00                      2.0                      1.0   39.0000                                                           Master. Richard F Becker        1
+183     3.0  0.0   4.00                      0.0                      2.0   22.0250                                                 Miss. Luise Gretchen Kink-Heilmann        1
+184     1.0  1.0  39.00                      0.0                      0.0   50.0000                                                               Mr. Hugh Roscoe Rood        0
+185     3.0  0.0  26.00                      1.0                      0.0   15.5000                                              Mrs. Thomas (Johanna Godfrey) O'Brien        1
+186     1.0  1.0  45.00                      0.0                      0.0   26.5500                                                        Mr. Charles Hallace Romaine        1
+187     3.0  1.0  40.00                      1.0                      1.0   15.5000                                                                    Mr. John Bourke        0
+188     3.0  1.0  36.00                      0.0                      0.0    7.8958                                                                 Mr. Stjepan Turcin        0
+189     2.0  0.0  32.00                      0.0                      0.0   13.0000                                                                 Mrs. (Rosa) Pinsky        1
+190     2.0  1.0  19.00                      0.0                      0.0   13.0000                                                               Mr. William Carbines        0
+191     3.0  0.0  19.00                      1.0                      0.0    7.8542                                     Miss. Carla Christine Nielsine Andersen-Jensen        1
+192     2.0  1.0   3.00                      1.0                      1.0   26.0000                                                          Master. Michel M Navratil        1
+193     1.0  0.0  44.00                      0.0                      0.0   27.7208                                           Mrs. James Joseph (Margaret Tobin) Brown        1
+194     1.0  0.0  58.00                      0.0                      0.0  146.5208                                                                Miss. Elise Lurette        1
+195     3.0  1.0  28.00                      0.0                      0.0    7.7500                                                                 Mr. Robert Mernagh        0
+196     3.0  1.0  42.00                      0.0                      1.0    8.4042                                                    Mr. Karl Siegwart Andreas Olsen        0
+197     3.0  0.0  21.00                      0.0                      0.0    7.7500                                                             Miss. Margaret Madigan        1
+198     2.0  0.0  24.00                      0.0                      0.0   13.0000                                                              Miss. Henriette Yrois        0
+199     3.0  1.0  28.00                      0.0                      0.0    9.5000                                                      Mr. Nestor Cyriel Vande Walle        0
+200     3.0  1.0  17.00                      8.0                      2.0   69.5500                                                                 Mr. Frederick Sage        0
+201     3.0  1.0  34.00                      0.0                      0.0    6.4958                                                          Mr. Jakob Alfred Johanson        0
+202     3.0  1.0  45.50                      0.0                      0.0    7.2250                                                                Mr. Gerious Youseff        0
+203     3.0  1.0  18.00                      0.0                      0.0    8.0500                                                                  Mr. Gurshon Cohen        1
+204     3.0  0.0   2.00                      0.0                      1.0   10.4625                                                          Miss. Telma Matilda Strom        0
+205     3.0  1.0  32.00                      1.0                      0.0   15.8500                                                          Mr. Karl Alfred Backstrom        0
+206     3.0  1.0  26.00                      0.0                      0.0   18.7875                                                         Mr. Nassef Cassem Albimona        1
+207     3.0  0.0  16.00                      0.0                      0.0    7.7500                                                                   Miss. Helen Carr        1
+208     1.0  1.0  40.00                      0.0                      0.0   31.0000                                                                    Mr. Henry Blank        1
+209     3.0  1.0  24.00                      0.0                      0.0    7.0500                                                                      Mr. Ahmed Ali        0
+210     2.0  0.0  35.00                      0.0                      0.0   21.0000                                                          Miss. Clear Annie Cameron        1
+211     3.0  1.0  22.00                      0.0                      0.0    7.2500                                                              Mr. John Henry Perkin        0
+212     2.0  1.0  30.00                      0.0                      0.0   13.0000                                                         Mr. Hans Kristensen Givard        0
+213     3.0  1.0  22.00                      1.0                      0.0    7.7500                                                                 Mr. Philip Kiernan        0
+214     1.0  0.0  31.00                      1.0                      0.0  113.2750                                                             Miss. Madeleine Newell        1
+215     3.0  0.0  27.00                      0.0                      0.0    7.9250                                                              Miss. Eliina Honkanen        1
+216     2.0  1.0  42.00                      1.0                      0.0   27.0000                                                        Mr. Sidney Samuel Jacobsohn        0
+217     1.0  0.0  32.00                      0.0                      0.0   76.2917                                                               Miss. Albina Bazzani        1
+218     2.0  1.0  30.00                      0.0                      0.0   10.5000                                                                  Mr. Walter Harris        0
+219     3.0  1.0  16.00                      0.0                      0.0    8.0500                                                      Mr. Victor Francis Sunderland        1
+220     2.0  1.0  27.00                      0.0                      0.0   13.0000                                                                Mr. James H Bracken        0
+221     3.0  1.0  51.00                      0.0                      0.0    8.0500                                                             Mr. George Henry Green        0
+222     3.0  1.0  22.00                      0.0                      0.0    7.8958                                                                Mr. Christo Nenkoff        0
+223     1.0  1.0  38.00                      1.0                      0.0   90.0000                                                        Mr. Frederick Maxfield Hoyt        1
+224     3.0  1.0  22.00                      0.0                      0.0    9.3500                                                        Mr. Karl Ivar Sven Berglund        0
+225     2.0  1.0  19.00                      0.0                      0.0   10.5000                                                           Mr. William John Mellors        1
+226     3.0  1.0  20.50                      0.0                      0.0    7.2500                                                               Mr. John Hall Lovell        0
+227     2.0  1.0  18.00                      0.0                      0.0   13.0000                                                           Mr. Arne Jonas Fahlstrom        0
+228     3.0  0.0  12.00                      3.0                      1.0   25.4667                                                             Miss. Mathilde Lefebre        0
+229     1.0  0.0  35.00                      1.0                      0.0   83.4750                                        Mrs. Henry Birkhardt (Irene Wallach) Harris        1
+230     3.0  1.0  29.00                      0.0                      0.0    7.7750                                                            Mr. Bengt Edvin Larsson        0
+231     2.0  1.0  59.00                      0.0                      0.0   13.5000                                                           Mr. Ernst Adolf Sjostedt        0
+232     3.0  0.0   5.00                      4.0                      2.0   31.3875                                                      Miss. Lillian Gertrud Asplund        1
+233     2.0  1.0  24.00                      0.0                      0.0   10.5000                                                   Mr. Robert William Norman Leyson        0
+234     3.0  0.0  21.00                      0.0                      0.0    7.5500                                                        Miss. Alice Phoebe Harknett        0
+235     2.0  1.0  44.00                      1.0                      0.0   26.0000                                                                   Mr. Stephen Hold        0
+236     2.0  0.0   8.00                      0.0                      2.0   26.2500                                                             Miss. Marjorie Collyer        1
+237     2.0  1.0  19.00                      0.0                      0.0   10.5000                                                     Mr. Frederick William Pengelly        0
+238     2.0  1.0  33.00                      0.0                      0.0   12.2750                                                              Mr. George Henry Hunt        0
+239     3.0  0.0  19.00                      1.0                      0.0   14.4542                                                               Miss. Thamine Zabour        0
+240     3.0  0.0  18.00                      1.0                      0.0   15.5000                                                             Miss. Katherine Murphy        1
+241     2.0  1.0  29.00                      0.0                      0.0   10.5000                                                     Mr. Reginald Charles Coleridge        0
+242     3.0  1.0  22.00                      0.0                      0.0    7.1250                                                       Mr. Matti Alexanteri Maenpaa        0
+243     3.0  1.0  30.00                      0.0                      0.0    7.2250                                                                Mr. Sleiman Attalah        0
+244     1.0  1.0  44.00                      2.0                      0.0   90.0000                                                         Dr. William Edward Minahan        0
+245     3.0  0.0  25.00                      0.0                      0.0    7.7750                                               Miss. Agda Thorilda Viktoria Lindahl        0
+246     2.0  0.0  24.00                      0.0                      2.0   14.5000                                                     Mrs. William (Anna) Hamalainen        1
+247     1.0  1.0  37.00                      1.0                      1.0   52.5542                                                       Mr. Richard Leonard Beckwith        1
+248     2.0  1.0  54.00                      1.0                      0.0   26.0000                                                       Rev. Ernest Courtenay Carter        0
+249     3.0  1.0  18.00                      0.0                      0.0    7.2500                                                              Mr. James George Reed        0
+250     3.0  0.0  29.00                      1.0                      1.0   10.4625                                          Mrs. Wilhelm (Elna Matilda Persson) Strom        0
+251     1.0  1.0  62.00                      0.0                      0.0   26.5500                                                           Mr. William Thomas Stead        0
+252     3.0  1.0  30.00                      1.0                      0.0   16.1000                                                            Mr. William Arthur Lobb        0
+253     3.0  0.0  41.00                      0.0                      2.0   20.2125                                            Mrs. Viktor (Helena Wilhelmina) Rosblom        0
+254     3.0  0.0  29.00                      0.0                      2.0   15.2458                                             Mrs. Darwis (Hanne Youssef Razi) Touma        1
+255     1.0  0.0  38.00                      0.0                      0.0   79.2000                                                      Mrs. Gertrude Maybelle Thorne        1
+256     1.0  0.0  30.00                      0.0                      0.0   86.5000                                                                Miss. Gladys Cherry        1
+257     1.0  0.0  35.00                      0.0                      0.0  512.3292                                                                    Miss. Anna Ward        1
+258     2.0  0.0  50.00                      0.0                      1.0   26.0000                                                         Mrs. (Lutie Davis) Parrish        1
+259     3.0  1.0   3.00                      4.0                      2.0   31.3875                                                   Master. Edvin Rojj Felix Asplund        1
+260     1.0  1.0  52.00                      1.0                      1.0   79.6500                                                                   Mr. Emil Taussig        0
+261     1.0  1.0  40.00                      0.0                      0.0    0.0000                                                               Mr. William Harrison        0
+262     3.0  0.0  21.00                      0.0                      0.0    7.7500                                                                  Miss. Delia Henry        0
+263     2.0  1.0  36.00                      0.0                      0.0   10.5000                                                                   Mr. David Reeves        0
+264     3.0  1.0  16.00                      4.0                      1.0   39.6875                                                           Mr. Ernesti Arvid Panula        0
+265     3.0  1.0  25.00                      1.0                      0.0    7.7750                                                            Mr. Ernst Ulrik Persson        1
+266     1.0  0.0  58.00                      0.0                      1.0  153.4625                                       Mrs. William Thompson (Edith Junkins) Graham        1
+267     1.0  0.0  35.00                      0.0                      0.0  135.6333                                                              Miss. Amelia Bissette        1
+268     1.0  1.0  28.00                      0.0                      0.0   31.0000                                                               Mr. Alexander Cairns        0
+269     3.0  1.0  25.00                      0.0                      0.0    0.0000                                                        Mr. William Henry Tornquist        1
+270     2.0  0.0  41.00                      0.0                      1.0   19.5000                                           Mrs. (Elizabeth Anne Maidment) Mellinger        1
+271     1.0  1.0  37.00                      0.0                      1.0   29.7000                                                               Mr. Charles H Natsch        0
+272     3.0  0.0  33.00                      0.0                      0.0    7.7500                                                                 Miss. Hanora Healy        1
+273     1.0  0.0  63.00                      1.0                      0.0   77.9583                                                   Miss. Kornelia Theodosia Andrews        1
+274     3.0  0.0  45.00                      0.0                      0.0    7.7500                                                   Miss. Augusta Charlotta Lindblom        0
+275     2.0  1.0  21.00                      0.0                      0.0    0.0000                                                                 Mr. Francis Parkes        0
+276     3.0  1.0   7.00                      4.0                      1.0   29.1250                                                                  Master. Eric Rice        0
+277     3.0  0.0  35.00                      1.0                      1.0   20.2500                                                    Mrs. Stanton (Rosa Hunt) Abbott        1
+278     3.0  1.0  65.00                      0.0                      0.0    7.7500                                                                    Mr. Frank Duane        0
+279     3.0  1.0  28.00                      0.0                      0.0    7.8542                                                    Mr. Nils Johan Goransson Olsson        0
+280     3.0  1.0  16.00                      0.0                      0.0    9.5000                                                           Mr. Alfons de Pelsmaeker        0
+281     3.0  1.0  19.00                      0.0                      0.0    8.0500                                                          Mr. Edward Arthur Dorking        1
+282     1.0  1.0  57.00                      0.0                      0.0   26.0000                                                          Mr. Richard William Smith        0
+283     3.0  1.0  33.00                      0.0                      0.0    8.6625                                                                 Mr. Ivan Stankovic        0
+284     3.0  1.0  30.00                      0.0                      0.0    9.5000                                                             Mr. Theodore de Mulder        1
+285     3.0  1.0  22.00                      0.0                      0.0    7.8958                                                                Mr. Penko Naidenoff        0
+286     2.0  1.0  42.00                      0.0                      0.0   13.0000                                                                Mr. Masabumi Hosono        1
+287     3.0  0.0  22.00                      0.0                      0.0    7.7500                                                                Miss. Kate Connolly        1
+288     1.0  0.0  26.00                      0.0                      0.0   78.8500                                                                 Miss. Ellen Barber        1
+289     1.0  0.0  19.00                      1.0                      0.0   91.0792                                             Mrs. Dickinson H (Helen Walton) Bishop        1
+290     2.0  1.0  36.00                      0.0                      0.0   12.8750                                                              Mr. Rene Jacques Levy        0
+291     3.0  0.0  24.00                      0.0                      0.0    8.8500                                                                 Miss. Aloisia Haas        0
+292     3.0  1.0  24.00                      0.0                      0.0    7.8958                                                                    Mr. Ivan Mineff        0
+293     1.0  1.0  30.00                      0.0                      0.0   27.7208                                                                   Mr. Ervin G Lewy        0
+294     3.0  1.0  23.50                      0.0                      0.0    7.2292                                                                  Mr. Mansour Hanna        0
+295     1.0  0.0   2.00                      1.0                      2.0  151.5500                                                        Miss. Helen Loraine Allison        0
+296     1.0  1.0  47.00                      0.0                      0.0   30.5000                                                               Mr. Adolphe Saalfeld        1
+297     1.0  0.0  50.00                      0.0                      1.0  247.5208                                     Mrs. James (Helene DeLaudeniere Chaput) Baxter        1
+298     3.0  0.0  20.00                      0.0                      0.0    7.7500                                                         Miss. Anna Katherine Kelly        1
+299     3.0  1.0  24.00                      2.0                      0.0   23.2500                                                                  Mr. Bernard McCoy        1
+300     3.0  1.0  19.00                      0.0                      0.0    0.0000                                                     Mr. William Cahoone Jr Johnson        0
+301     2.0  0.0  46.00                      0.0                      0.0   12.3500                                                                 Miss. Nora A Keane        1
+302     3.0  1.0  28.00                      0.0                      0.0    8.0500                                                           Mr. Howard Hugh Williams        0
+303     1.0  1.0   0.92                      1.0                      2.0  151.5500                                                      Master. Hudson Trevor Allison        1
+304     1.0  0.0  42.00                      0.0                      0.0  110.8833                                                             Miss. Margaret Fleming        1
+305     1.0  0.0  17.00                      1.0                      0.0  108.9000  Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo) Penasco y Castellana        1
+306     2.0  1.0  30.00                      1.0                      0.0   24.0000                                                                 Mr. Samuel Abelson        0
+307     1.0  0.0  30.00                      0.0                      0.0   56.9292                                                      Miss. Laura Mabel Francatelli        1
+308     1.0  0.0  24.00                      0.0                      0.0   83.1583                                                      Miss. Margaret Bechstein Hays        1
+309     1.0  0.0  18.00                      2.0                      2.0  262.3750                                                          Miss. Emily Borie Ryerson        1
+310     2.0  0.0  26.00                      1.0                      1.0   26.0000                                               Mrs. William (Anna Sylfven) Lahtinen        0
+311     3.0  1.0  28.00                      0.0                      0.0    7.8958                                                              Mr. Ignjac Hendekovic        0
+312     2.0  1.0  43.00                      1.0                      1.0   26.2500                                                                  Mr. Benjamin Hart        0
+313     3.0  0.0  26.00                      0.0                      0.0    7.8542                                                     Miss. Helmina Josefina Nilsson        1
+314     2.0  0.0  24.00                      1.0                      0.0   26.0000                                                 Mrs. Sinai (Miriam Sternin) Kantor        1
+315     2.0  1.0  54.00                      0.0                      0.0   14.0000                                                                Dr. Ernest Moraweck        0
+316     1.0  0.0  31.00                      0.0                      2.0  164.8667                                                            Miss. Mary Natalie Wick        1
+317     1.0  0.0  40.00                      1.0                      1.0  134.5000                            Mrs. Frederic Oakley (Margaretta Corning Stone) Spedden        1
+318     3.0  1.0  22.00                      0.0                      0.0    7.2500                                                                  Mr. Samuel Dennis        0
+319     3.0  1.0  27.00                      0.0                      0.0    7.8958                                                                    Mr. Yoto Danoff        0
+320     2.0  0.0  30.00                      0.0                      0.0   12.3500                                                           Miss. Hilda Mary Slayter        1
+321     2.0  0.0  22.00                      1.0                      1.0   29.0000                                 Mrs. Albert Francis (Sylvia Mae Harbaugh) Caldwell        1
+322     3.0  1.0  20.00                      8.0                      2.0   69.5500                                                            Mr. George John Jr Sage        0
+323     1.0  0.0  36.00                      0.0                      0.0  135.6333                                                            Miss. Marie Grice Young        1
+324     3.0  1.0  61.00                      0.0                      0.0    6.2375                                                           Mr. Johan Hansen Nysveen        0
+325     2.0  0.0  36.00                      0.0                      0.0   13.0000                                                             Mrs. (Ada E Hall) Ball        1
+326     3.0  0.0  31.00                      1.0                      1.0   20.5250                                      Mrs. Frank John (Emily Alice Brown) Goldsmith        1
+327     1.0  0.0  16.00                      0.0                      1.0   57.9792                                                        Miss. Jean Gertrude Hippach        1
+328     3.0  0.0  28.00                      2.0                      0.0   23.2500                                                                  Miss. Agnes McCoy        1
+329     1.0  1.0  45.50                      0.0                      0.0   28.5000                                                                 Mr. Austen Partner        0
+330     1.0  1.0  38.00                      0.0                      1.0  153.4625                                                           Mr. George Edward Graham        0
+331     3.0  1.0  16.00                      2.0                      0.0   18.0000                                                     Mr. Leo Edmondus Vander Planke        0
+332     1.0  0.0  42.00                      1.0                      0.0  133.6500                                  Mrs. Henry William (Clara Heinsheimer) Frauenthal        1
+333     3.0  1.0  30.00                      0.0                      0.0    7.8958                                                                  Mr. Mitto Denkoff        0
+334     1.0  1.0  29.00                      1.0                      0.0   66.6000                                                           Mr. Thomas Clinton Pears        0
+335     1.0  0.0  41.00                      0.0                      0.0  134.5000                                                     Miss. Elizabeth Margaret Burns        1
+336     3.0  1.0  45.00                      0.0                      0.0    8.0500                                                               Mr. Karl Edwart Dahl        1
+337     1.0  1.0  45.00                      0.0                      0.0   35.5000                                                        Mr. Stephen Weart Blackwell        0
+338     2.0  1.0   2.00                      1.0                      1.0   26.0000                                                      Master. Edmond Roger Navratil        1
+339     1.0  0.0  24.00                      3.0                      2.0  263.0000                                                      Miss. Alice Elizabeth Fortune        1
+340     2.0  1.0  28.00                      0.0                      0.0   13.0000                                                          Mr. Erik Gustaf Collander        0
+341     2.0  1.0  25.00                      0.0                      0.0   13.0000                                          Mr. Charles Frederick Waddington Sedgwick        0
+342     2.0  1.0  36.00                      0.0                      0.0   13.0000                                                             Mr. Stanley Hubert Fox        0
+343     2.0  0.0  24.00                      0.0                      0.0   13.0000                                                                 Miss. Amelia Brown        1
+344     2.0  0.0  40.00                      0.0                      0.0   13.0000                                                           Miss. Marion Elsie Smith        1
+345     3.0  0.0  34.00                      1.0                      0.0   16.1000                                           Mrs. Thomas Henry (Mary E Finck) Davison        1
+346     3.0  1.0   3.00                      1.0                      1.0   15.9000                                                        Master. William Loch Coutts        1
+347     3.0  1.0  42.00                      0.0                      0.0    8.6625                                                                    Mr. Jovan Dimic        0
+348     3.0  1.0  23.00                      0.0                      0.0    9.2250                                                              Mr. Nils Martin Odahl        0
+349     1.0  1.0  43.00                      0.0                      0.0   35.0000                                              Mr. Fletcher Fellows Williams-Lambert        0
+350     3.0  1.0  15.00                      1.0                      1.0    7.2292                                                                  Mr. Tannous Elias        0
+351     3.0  1.0  25.00                      1.0                      0.0   17.8000                                                           Mr. Josef Arnold-Franchi        0
+352     3.0  1.0  23.00                      0.0                      0.0    7.2250                                                                   Mr. Wazli Yousif        0
+353     3.0  1.0  28.00                      0.0                      0.0    9.5000                                                         Mr. Leo Peter Vanden Steen        0
+354     1.0  0.0  22.00                      0.0                      1.0   55.0000                                                         Miss. Elsie Edith Bowerman        1
+355     2.0  0.0  38.00                      0.0                      0.0   13.0000                                                           Miss. Annie Clemmer Funk        0
+356     3.0  0.0  22.00                      0.0                      0.0    7.8792                                                                Miss. Mary McGovern        1
+357     3.0  0.0  23.00                      0.0                      0.0    7.8792                                                           Miss. Helen Mary Mockler        1
+358     3.0  1.0  40.00                      1.0                      4.0   27.9000                                                                  Mr. Wilhelm Skoog        0
+359     2.0  1.0  29.00                      1.0                      0.0   27.7208                                                           Mr. Sebastiano del Carlo        0
+360     3.0  0.0  45.00                      0.0                      1.0   14.4542                                                     Mrs. (Catherine David) Barbara        0
+361     3.0  1.0  35.00                      0.0                      0.0    7.0500                                                                     Mr. Adola Asim        0
+362     3.0  1.0  27.00                      1.0                      0.0   15.5000                                                                 Mr. Thomas O'Brien        0
+363     3.0  1.0  30.00                      0.0                      0.0    7.2500                                                      Mr. Mauritz Nils Martin Adahl        0
+364     1.0  0.0  60.00                      1.0                      0.0   75.2500                                    Mrs. Frank Manley (Anna Sophia Atkinson) Warren        1
+365     3.0  0.0  35.00                      0.0                      0.0    7.2292                                                      Mrs. (Mantoura Boulos) Moussa        1
+366     3.0  0.0  22.00                      0.0                      0.0    7.7500                                                                 Miss. Annie Jermyn        1
+367     1.0  0.0  24.00                      0.0                      0.0   69.3000                                                       Mme. Leontine Pauline Aubart        1
+368     1.0  1.0  25.00                      1.0                      0.0   55.4417                                                         Mr. George Achilles Harder        1
+369     3.0  1.0  18.00                      1.0                      0.0    6.4958                                                           Mr. Jakob Alfred Wiklund        0
+370     3.0  1.0  19.00                      0.0                      0.0    8.0500                                                          Mr. William Thomas Beavan        0
+371     1.0  1.0  22.00                      0.0                      0.0  135.6333                                                                 Mr. Sante Ringhini        0
+372     3.0  0.0   3.00                      3.0                      1.0   21.0750                                                          Miss. Stina Viola Palsson        0
+373     1.0  0.0  25.00                      1.0                      0.0   82.1708                                               Mrs. Edgar Joseph (Leila Saks) Meyer        1
+374     3.0  0.0  22.00                      0.0                      0.0    7.2500                                                     Miss. Aurora Adelia Landergren        1
+375     1.0  1.0  27.00                      0.0                      2.0  211.5000                                                           Mr. Harry Elkins Widener        0
+376     3.0  1.0  20.00                      0.0                      0.0    4.0125                                                                 Mr. Tannous Betros        0
+377     3.0  1.0  19.00                      0.0                      0.0    7.7750                                                         Mr. Karl Gideon Gustafsson        0
+378     1.0  0.0  42.00                      0.0                      0.0  227.5250                                                               Miss. Rosalie Bidois        1
+379     3.0  0.0   1.00                      0.0                      2.0   15.7417                                                                  Miss. Maria Nakid        1
+380     3.0  1.0  32.00                      0.0                      0.0    7.9250                                                                  Mr. Juho Tikkanen        0
+381     1.0  0.0  35.00                      1.0                      0.0   52.0000                                 Mrs. Alexander Oskar (Mary Aline Towner) Holverson        1
+382     3.0  1.0  27.00                      0.0                      0.0    7.8958                                                              Mr. Vasil Plotcharsky        0
+383     2.0  1.0  18.00                      0.0                      0.0   73.5000                                                           Mr. Charles Henry Davies        0
+384     3.0  1.0   1.00                      5.0                      2.0   46.9000                                                     Master. Sidney Leonard Goodwin        0
+385     2.0  0.0  36.00                      0.0                      0.0   13.0000                                                                    Miss. Kate Buss        1
+386     3.0  1.0  19.00                      0.0                      0.0    7.7292                                                                Mr. Matthew Sadlier        0
+387     2.0  0.0  17.00                      0.0                      0.0   12.0000                                                               Miss. Bertha Lehmann        1
+388     1.0  1.0  36.00                      1.0                      2.0  120.0000                                                          Mr. William Ernest Carter        1
+389     3.0  1.0  21.00                      0.0                      0.0    7.7958                                                              Mr. Carl Olof Jansson        1
+390     3.0  1.0  28.00                      2.0                      0.0    7.9250                                                        Mr. Johan Birger Gustafsson        0
+391     1.0  0.0  23.00                      1.0                      0.0  113.2750                                                              Miss. Marjorie Newell        1
+392     3.0  0.0  24.00                      0.0                      2.0   16.7000                                 Mrs. Hjalmar (Agnes Charlotta Bengtsson) Sandstrom        1
+393     3.0  1.0  22.00                      0.0                      0.0    7.7958                                                                 Mr. Erik Johansson        0
+394     3.0  0.0  31.00                      0.0                      0.0    7.8542                                                                 Miss. Elina Olsson        0
+395     2.0  1.0  46.00                      0.0                      0.0   26.0000                                                             Mr. Peter David McKane        0
+396     2.0  1.0  23.00                      0.0                      0.0   10.5000                                                                    Dr. Alfred Pain        0
+397     2.0  0.0  28.00                      0.0                      0.0   12.6500                                                    Mrs. William H (Jessie L) Trout        1
+398     3.0  1.0  39.00                      0.0                      0.0    7.9250                                                                  Mr. Juha Niskanen        1
+399     3.0  1.0  26.00                      0.0                      0.0    8.0500                                                                     Mr. John Adams        0
+400     3.0  0.0  21.00                      1.0                      0.0    9.8250                                                            Miss. Mari Aina Jussila        0
+401     3.0  1.0  28.00                      1.0                      0.0   15.8500                                                      Mr. Pekka Pietari Hakkarainen        0
+402     3.0  0.0  20.00                      0.0                      0.0    8.6625                                                             Miss. Marija Oreskovic        0
+403     2.0  1.0  34.00                      1.0                      0.0   21.0000                                                                  Mr. Shadrach Gale        0
+404     3.0  1.0  51.00                      0.0                      0.0    7.7500                                                    Mr. Carl/Charles Peter Widegren        0
+405     2.0  1.0   3.00                      1.0                      1.0   18.7500                                                      Master. William Rowe Richards        1
+406     3.0  1.0  21.00                      0.0                      0.0    7.7750                                                   Mr. Hans Martin Monsen Birkeland        0
+407     3.0  0.0   3.00                      3.0                      1.0   25.4667                                                                  Miss. Ida Lefebre        0
+408     3.0  1.0  42.00                      0.0                      0.0    7.8958                                                                  Mr. Todor Sdycoff        0
+409     3.0  1.0  27.00                      0.0                      0.0    6.8583                                                                     Mr. Henry Hart        0
+410     1.0  0.0  33.00                      1.0                      0.0   90.0000                                                              Miss. Daisy E Minahan        1
+411     2.0  1.0  22.00                      0.0                      0.0    0.0000                                                      Mr. Alfred Fleming Cunningham        0
+412     3.0  1.0  44.00                      0.0                      0.0    7.9250                                                           Mr. Johan Julian Sundman        1
+413     3.0  0.0  32.00                      0.0                      0.0    8.0500                                             Mrs. Thomas (Annie Louise Rowley) Meek        0
+414     2.0  0.0  34.00                      1.0                      1.0   32.5000                                     Mrs. James Vivian (Lulu Thorne Christian) Drew        1
+415     2.0  0.0  18.00                      0.0                      2.0   13.0000                                                       Miss. Lyyli Karoliina Silven        1
+416     2.0  1.0  30.00                      0.0                      0.0   13.0000                                                          Mr. William John Matthews        0
+417     3.0  0.0  10.00                      0.0                      2.0   24.1500                                                           Miss. Catharina Van Impe        0
+418     3.0  1.0  21.00                      0.0                      0.0    7.7333                                                                 Mr. David Charters        0
+419     3.0  1.0  29.00                      0.0                      0.0    7.8750                                                                  Mr. Leo Zimmerman        0
+420     3.0  0.0  28.00                      1.0                      1.0   14.4000                              Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren) Danbom        0
+421     3.0  1.0  18.00                      1.0                      1.0   20.2125                                                         Mr. Viktor Richard Rosblom        0
+422     3.0  1.0  54.00                      0.0                      0.0    7.2500                                                              Mr. Phillippe Wiseman        0
+423     2.0  0.0  28.00                      1.0                      0.0   26.0000                                         Mrs. Charles V (Ada Maria Winfield) Clarke        1
+424     2.0  0.0  19.00                      0.0                      0.0   26.0000                                                       Miss. Kate Florence Phillips        1
+425     3.0  1.0  28.00                      0.0                      0.0    7.7500                                                                    Mr. James Flynn        0
+426     3.0  1.0  32.00                      0.0                      0.0    8.0500                                                  Mr. Berk (Berk Trembisky) Pickard        1
+427     1.0  1.0  28.00                      0.0                      0.0   26.5500                                           Mr. Mauritz Hakan Bjornstrom-Steffansson        1
+428     3.0  0.0  33.00                      1.0                      0.0   16.1000                                   Mrs. Percival (Florence Kate White) Thorneycroft        1
+429     2.0  0.0  42.00                      1.0                      0.0   26.0000                                 Mrs. Charles Alexander (Alice Adelaide Slow) Louch        1
+430     3.0  1.0  17.00                      0.0                      0.0    7.1250                                                          Mr. Nikolai Erland Kallio        0
+431     1.0  1.0  50.00                      1.0                      0.0   55.9000                                                           Mr. William Baird Silvey        0
+432     1.0  0.0  14.00                      1.0                      2.0  120.0000                                                           Miss. Lucile Polk Carter        1
+433     3.0  0.0  21.00                      2.0                      2.0   34.3750                                                        Miss. Doolina Margaret Ford        0
+434     2.0  0.0  24.00                      2.0                      3.0   18.7500                                               Mrs. Sidney (Emily Hocking) Richards        1
+435     1.0  1.0  64.00                      1.0                      4.0  263.0000                                                                   Mr. Mark Fortune        0
+436     2.0  1.0  31.00                      0.0                      0.0   10.5000                                              Mr. Johan Henrik Johannesson Kvillner        0
+437     2.0  0.0  45.00                      1.0                      1.0   26.2500                                         Mrs. Benjamin (Esther Ada Bloomfield) Hart        1
+438     3.0  1.0  20.00                      0.0                      0.0    9.5000                                                                     Mr. Leon Hampe        0
+439     3.0  1.0  25.00                      1.0                      0.0    7.7750                                                           Mr. Johan Emil Petterson        0
+440     2.0  0.0  28.00                      0.0                      0.0   13.0000                                                           Ms. Encarnacion Reynaldo        1
+441     3.0  1.0  29.00                      0.0                      0.0    8.1125                                                   Mr. Bernt Johannesen-Bratthammer        1
+442     1.0  1.0   4.00                      0.0                      2.0   81.8583                                                           Master. Washington Dodge        1
+443     2.0  0.0  13.00                      0.0                      1.0   19.5000                                                   Miss. Madeleine Violet Mellinger        1
+444     1.0  1.0  34.00                      0.0                      0.0   26.5500                                                         Mr. Frederic Kimber Seward        1
+445     3.0  0.0   5.00                      2.0                      1.0   19.2583                                                      Miss. Marie Catherine Baclini        1
+446     1.0  1.0  52.00                      0.0                      0.0   30.5000                                                      Major. Arthur Godfrey Peuchen        1
+447     2.0  1.0  36.00                      1.0                      2.0   27.7500                                                               Mr. Edwy Arthur West        0
+448     3.0  1.0  28.00                      1.0                      0.0   19.9667                                                     Mr. Ingvald Olai Olsen Hagland        0
+449     1.0  1.0  30.00                      0.0                      0.0   27.7500                                                     Mr. Benjamin Laventall Foreman        0
+450     1.0  1.0  49.00                      1.0                      0.0   89.1042                                                            Mr. Samuel L Goldenberg        1
+451     3.0  1.0  24.00                      0.0                      0.0    8.0500                                                                 Mr. Joseph Peduzzi        0
+452     3.0  1.0  29.00                      0.0                      0.0    7.8958                                                                  Mr. Ivan Jalsevac        1
+453     1.0  1.0  65.00                      0.0                      0.0   26.5500                                                           Mr. Francis Davis Millet        0
+454     1.0  0.0  41.00                      1.0                      0.0   51.8625                                                   Mrs. Frederick R (Marion) Kenyon        1
+455     2.0  0.0  50.00                      0.0                      0.0   10.5000                                                                 Miss. Ellen Toomey        1
+456     3.0  1.0  17.00                      0.0                      0.0    7.7500                                                               Mr. Maurice O'Connor        0
+457     1.0  1.0  48.00                      0.0                      0.0   26.5500                                                                 Mr. Harry Anderson        1
+458     3.0  1.0  34.00                      0.0                      0.0    8.0500                                                                 Mr. William Morley        0
+459     1.0  1.0  47.00                      0.0                      0.0   38.5000                                                                   Mr. Arthur H Gee        0
+460     2.0  1.0  48.00                      0.0                      0.0   13.0000                                                        Mr. Jacob Christian Milling        0
+461     3.0  1.0  34.00                      0.0                      0.0    8.0500                                                                  Mr. Simon Maisner        0
+462     3.0  1.0  38.00                      0.0                      0.0    7.0500                                                     Mr. Manuel Estanslas Goncalves        0
+463     2.0  1.0  21.00                      0.0                      0.0    0.0000                                                               Mr. William Campbell        0
+464     1.0  1.0  56.00                      0.0                      0.0   26.5500                                                          Mr. John Montgomery Smart        0
+465     3.0  1.0  22.00                      0.0                      0.0    7.7250                                                                  Mr. James Scanlan        0
+466     3.0  0.0   0.75                      2.0                      1.0   19.2583                                                       Miss. Helene Barbara Baclini        1
+467     3.0  1.0  39.00                      0.0                      0.0    7.2500                                                                   Mr. Arthur Keefe        0
+468     3.0  1.0  38.00                      0.0                      0.0    8.6625                                                                     Mr. Luka Cacic        0
+469     2.0  0.0  33.00                      1.0                      2.0   27.7500                                             Mrs. Edwy Arthur (Ada Mary Worth) West        1
+470     2.0  0.0  23.00                      0.0                      0.0   13.7917                                        Mrs. Amin S (Marie Marthe Thuillard) Jerwan        1
+471     3.0  0.0  22.00                      0.0                      0.0    9.8375                                                         Miss. Ida Sofia Strandberg        0
+472     1.0  1.0  40.00                      0.0                      0.0   52.0000                                                         Mr. George Quincy Clifford        0
+473     2.0  1.0  34.00                      1.0                      0.0   21.0000                                                             Mr. Peter Henry Renouf        0
+474     3.0  1.0  29.00                      1.0                      0.0    7.0458                                                           Mr. Lewis Richard Braund        0
+475     3.0  1.0  22.00                      0.0                      0.0    7.5208                                                           Mr. Nils August Karlsson        0
+476     3.0  0.0   2.00                      0.0                      1.0   12.2875                                                            Miss. Hildur E Hirvonen        1
+477     3.0  1.0   9.00                      5.0                      2.0   46.9000                                                      Master. Harold Victor Goodwin        0
+478     2.0  1.0  37.00                      0.0                      0.0    0.0000                                                             Mr. Anthony Wood Frost        0
+479     3.0  1.0  50.00                      0.0                      0.0    8.0500                                                            Mr. Richard Henry Rouse        0
+480     3.0  0.0  63.00                      0.0                      0.0    9.5875                                                              Mrs. (Hedwig) Turkula        1
+481     1.0  1.0  25.00                      1.0                      0.0   91.0792                                                             Mr. Dickinson H Bishop        1
+482     3.0  0.0   8.00                      3.0                      1.0   25.4667                                                              Miss. Jeannie Lefebre        0
+483     1.0  0.0  35.00                      1.0                      0.0   90.0000                                     Mrs. Frederick Maxfield (Jane Anne Forby) Hoyt        1
+484     1.0  1.0  58.00                      0.0                      0.0   29.7000                                                             Mr. Edward Austin Kent        0
+485     3.0  1.0  30.00                      0.0                      0.0    8.0500                                                       Mr. Francis William Somerton        0
+486     3.0  1.0   9.00                      1.0                      1.0   15.9000                                                         Master. Eden Leslie Coutts        1
+487     3.0  1.0  19.00                      1.0                      0.0   19.9667                                                Mr. Konrad Mathias Reiersen Hagland        0
+488     3.0  1.0  21.00                      0.0                      0.0    7.2500                                                                 Mr. Einar Windelov        0
+489     1.0  1.0  55.00                      0.0                      0.0   30.5000                                                          Mr. Harry Markland Molson        0
+490     1.0  1.0  71.00                      0.0                      0.0   49.5042                                                             Mr. Ramon Artagaveytia        0
+491     3.0  1.0  21.00                      0.0                      0.0    8.0500                                                          Mr. Edward Roland Stanley        0
+492     3.0  1.0  26.00                      0.0                      0.0   14.4583                                                               Mr. Gerious Yousseff        0
+493     1.0  0.0  54.00                      1.0                      0.0   78.2667                                                      Miss. Elizabeth Mussey Eustis        1
+494     3.0  1.0  55.00                      0.0                      0.0   15.1000                                                     Mr. Frederick William Shellard        0
+495     1.0  0.0  25.00                      1.0                      2.0  151.5500                                     Mrs. Hudson J C (Bessie Waldo Daniels) Allison        0
+496     3.0  1.0  24.00                      0.0                      0.0    7.7958                                                                  Mr. Olof Svensson        0
+497     3.0  1.0  17.00                      0.0                      0.0    8.6625                                                                    Mr. Petar Calic        0
+498     3.0  0.0  21.00                      0.0                      0.0    7.7500                                                                 Miss. Mary Canavan        0
+499     3.0  0.0  21.00                      0.0                      0.0    7.6292                                                      Miss. Bridget Mary O'Sullivan        0
+500     3.0  0.0  37.00                      0.0                      0.0    9.5875                                                      Miss. Kristina Sofia Laitinen        0
+501     1.0  0.0  16.00                      0.0                      0.0   86.5000                                                               Miss. Roberta Maioni        1
+502     1.0  1.0  18.00                      1.0                      0.0  108.9000                                          Mr. Victor de Satode Penasco y Castellana        0
+503     2.0  0.0  33.00                      0.0                      2.0   26.0000                                       Mrs. Frederick Charles (Jane Richards) Quick        1
+504     1.0  1.0  37.00                      0.0                      0.0   26.5500                                                                 Mr. George Bradley        1
+505     3.0  1.0  28.00                      0.0                      0.0   22.5250                                                            Mr. Henry Margido Olsen        0
+506     3.0  1.0  26.00                      0.0                      0.0   56.4958                                                                      Mr. Fang Lang        1
+507     3.0  1.0  29.00                      0.0                      0.0    7.7500                                                            Mr. Eugene Patrick Daly        1
+508     3.0  1.0  66.00                      0.0                      0.0    8.0500                                                                   Mr. James Webber        0
+509     1.0  1.0  36.00                      0.0                      0.0   26.2875                                                           Mr. James Robert McGough        1
+510     1.0  0.0  54.00                      1.0                      0.0   59.4000                                      Mrs. Martin (Elizabeth L. Barrett) Rothschild        1
+511     3.0  1.0  24.00                      0.0                      0.0    7.4958                                                                   Mr. Satio Coleff        0
+512     1.0  1.0  47.00                      0.0                      0.0   34.0208                                                        Mr. William Anderson Walker        0
+513     2.0  0.0  34.00                      0.0                      0.0   10.5000                                                        Mrs. (Amelia Milley) Lemore        1
+514     3.0  1.0  30.00                      0.0                      0.0   24.1500                                                                   Mr. Patrick Ryan        0
+515     2.0  0.0  36.00                      1.0                      0.0   26.0000                                       Mrs. William A (Florence Agnes Hughes) Angle        1
+516     3.0  1.0  32.00                      0.0                      0.0    7.8958                                                                 Mr. Stefo Pavlovic        0
+517     1.0  0.0  30.00                      0.0                      0.0   93.5000                                                               Miss. Anne Perreault        1
+518     3.0  1.0  22.00                      0.0                      0.0    7.8958                                                                     Mr. Janko Vovk        0
+519     3.0  1.0  35.00                      0.0                      0.0    7.2250                                                                  Mr. Sarkis Lahoud        0
+520     1.0  0.0  44.00                      0.0                      1.0   57.9792                                     Mrs. Louis Albert (Ida Sophia Fischer) Hippach        1
+521     3.0  1.0  18.00                      0.0                      0.0    7.2292                                                                   Mr. Fared Kassem        0
+522     3.0  1.0  40.50                      0.0                      0.0    7.7500                                                                  Mr. James Farrell        0
+523     2.0  0.0  50.00                      0.0                      0.0   10.5000                                                                Miss. Lucy Ridsdale        1
+524     1.0  1.0  49.00                      0.0                      0.0  221.7792                                                                  Mr. John Farthing        0
+525     3.0  1.0  39.00                      0.0                      0.0    7.9250                                                           Mr. Johan Werner Salonen        0
+526     2.0  1.0  23.00                      2.0                      1.0   11.5000                                                         Mr. Richard George Hocking        0
+527     2.0  0.0   2.00                      1.0                      1.0   26.0000                                                            Miss. Phyllis May Quick        1
+528     3.0  1.0  17.00                      0.0                      0.0    7.2292                                                                   Mr. Nakli Toufik        0
+529     3.0  1.0  17.00                      1.0                      1.0    7.2292                                                                Mr. Joseph Jr Elias        0
+530     3.0  0.0  24.00                      0.0                      2.0   22.3583                                              Mrs. Catherine (Catherine Rizk) Peter        1
+531     3.0  0.0  30.00                      0.0                      0.0    8.6625                                                                 Miss. Marija Cacic        0
+532     2.0  0.0   7.00                      0.0                      2.0   26.2500                                                              Miss. Eva Miriam Hart        1
+533     1.0  1.0  45.00                      0.0                      0.0   26.5500                                                   Major. Archibald Willingham Butt        0
+534     1.0  0.0  30.00                      0.0                      0.0  106.4250                                                                 Miss. Bertha LeRoy        1
+535     3.0  1.0  69.00                      0.0                      0.0   14.5000                                                            Mr. Samuel Beard Risien        0
+536     1.0  0.0  22.00                      0.0                      2.0   49.5000                                                  Miss. Hedwig Margaritha Frolicher        1
+537     1.0  0.0  36.00                      0.0                      2.0   71.0000                                                             Miss. Harriet R Crosby        1
+538     3.0  0.0   9.00                      4.0                      2.0   31.2750                                                Miss. Ingeborg Constanzia Andersson        0
+539     3.0  0.0  11.00                      4.0                      2.0   31.2750                                                   Miss. Sigrid Elisabeth Andersson        0
+540     2.0  1.0  32.00                      1.0                      0.0   26.0000                                                                   Mr. Edward Beane        1
+541     1.0  1.0  50.00                      1.0                      0.0  106.4250                                                          Mr. Walter Donald Douglas        0
+542     1.0  1.0  64.00                      0.0                      0.0   26.0000                                                        Mr. Arthur Ernest Nicholson        0
+543     2.0  0.0  19.00                      1.0                      0.0   26.0000                                                   Mrs. Edward (Ethel Clarke) Beane        1
+544     2.0  1.0  27.00                      0.0                      0.0   13.8625                                                          Mr. Julian Padro y Manent        1
+545     3.0  1.0  33.00                      1.0                      1.0   20.5250                                                           Mr. Frank John Goldsmith        0
+546     2.0  1.0   8.00                      1.0                      1.0   36.7500                                                      Master. John Morgan Jr Davies        1
+547     1.0  1.0  17.00                      0.0                      2.0  110.8833                                                         Mr. John Borland Jr Thayer        1
+548     2.0  1.0  27.00                      0.0                      0.0   26.0000                                                         Mr. Percival James R Sharp        0
+549     3.0  1.0  21.00                      0.0                      0.0    7.8292                                                                Mr. Timothy O'Brien        0
+550     3.0  1.0  22.00                      0.0                      0.0    7.2250                                                                    Mr. Fahim Leeni        1
+551     3.0  0.0  22.00                      0.0                      0.0    7.7750                                                                  Miss. Velin Ohman        1
+552     1.0  1.0  62.00                      0.0                      0.0   26.5500                                                                  Mr. George Wright        0
+553     1.0  0.0  48.00                      1.0                      0.0   39.6000                                   Lady. (Lucille Christiana Sutherland)Duff Gordon        1
+554     1.0  1.0  45.00                      0.0                      0.0  227.5250                                                                 Mr. Victor Robbins        0
+555     1.0  0.0  39.00                      1.0                      1.0   79.6500                                              Mrs. Emil (Tillie Mandelbaum) Taussig        1
+556     3.0  0.0  36.00                      1.0                      0.0   17.4000                                        Mrs. Guillaume Joseph (Emma) de Messemaeker        1
+557     3.0  1.0  30.00                      0.0                      0.0    7.7500                                                            Mr. Thomas Rowan Morrow        0
+558     3.0  1.0  40.00                      0.0                      0.0    7.8958                                                                   Mr. Husein Sivic        0
+559     2.0  1.0  28.00                      0.0                      0.0   13.5000                                                          Mr. Robert Douglas Norman        0
+560     3.0  1.0  40.00                      0.0                      0.0    8.0500                                                                   Mr. John Simmons        0
+561     3.0  0.0  62.00                      0.0                      0.0    8.0500                                                      Miss. (Marion Ogden) Meanwell        0
+562     3.0  1.0  24.00                      2.0                      0.0   24.1500                                                                Mr. Alfred J Davies        0
+563     3.0  1.0  19.00                      0.0                      0.0    7.8958                                                                Mr. Ilia Stoytcheff        0
+564     3.0  0.0  29.00                      0.0                      4.0   21.0750                                         Mrs. Nils (Alma Cornelia Berglund) Palsson        0
+565     3.0  1.0  28.00                      0.0                      0.0    7.2292                                                                 Mr. Tannous Doharr        0
+566     3.0  1.0  32.00                      0.0                      0.0    7.8542                                                                   Mr. Carl Jonsson        1
+567     2.0  1.0  62.00                      0.0                      0.0   10.5000                                                                  Mr. George Harris        1
+568     1.0  0.0  53.00                      2.0                      0.0   51.4792                                       Mrs. Edward Dale (Charlotte Lamson) Appleton        1
+569     1.0  1.0  36.00                      0.0                      0.0   26.3875                                                               Mr. John Irwin Flynn        1
+570     3.0  0.0  22.00                      0.0                      0.0    7.7500                                                                   Miss. Mary Kelly        1
+571     3.0  1.0  16.00                      0.0                      0.0    8.0500                                                        Mr. Alfred George John Rush        0
+572     3.0  1.0  19.00                      0.0                      0.0   14.5000                                                                Mr. George Patchett        0
+573     2.0  0.0  34.00                      0.0                      0.0   13.0000                                                                Miss. Ethel Garside        1
+574     1.0  0.0  39.00                      1.0                      0.0   55.9000                                           Mrs. William Baird (Alice Munger) Silvey        1
+575     3.0  0.0  18.00                      1.0                      0.0   14.4583                                                    Mrs. Joseph (Maria Elias) Caram        0
+576     3.0  1.0  32.00                      0.0                      0.0    7.9250                                                                 Mr. Eiriik Jussila        1
+577     2.0  0.0  25.00                      1.0                      1.0   30.0000                                                         Miss. Julie Rachel Christy        1
+578     1.0  0.0  39.00                      1.0                      1.0  110.8833                                Mrs. John Borland (Marian Longstreth Morris) Thayer        1
+579     2.0  1.0  54.00                      0.0                      0.0   26.0000                                                          Mr. William James Downton        0
+580     1.0  1.0  36.00                      0.0                      0.0   40.1250                                                                 Mr. John Hugo Ross        0
+581     3.0  1.0  16.00                      0.0                      0.0    8.7125                                                                 Mr. Uscher Paulner        0
+582     1.0  0.0  18.00                      0.0                      2.0   79.6500                                                                 Miss. Ruth Taussig        1
+583     2.0  1.0  47.00                      0.0                      0.0   15.0000                                                             Mr. John Denzil Jarvis        0
+584     1.0  1.0  60.00                      1.0                      1.0   79.2000                                                    Mr. Maxmillian Frolicher-Stehli        1
+585     3.0  1.0  22.00                      0.0                      0.0    8.0500                                                               Mr. Eliezer Gilinski        0
+586     3.0  1.0  22.00                      0.0                      0.0    8.0500                                                                 Mr. Joseph Murdlin        0
+587     3.0  1.0  35.00                      0.0                      0.0    7.1250                                                                Mr. Matti Rintamaki        0
+588     1.0  0.0  52.00                      1.0                      0.0   78.2667                                     Mrs. Walter Bertram (Martha Eustis) Stephenson        1
+589     3.0  1.0  47.00                      0.0                      0.0    7.2500                                                          Mr. William James Elsbury        0
+590     3.0  0.0  40.00                      0.0                      2.0    7.7500                                                                  Miss. Mary Bourke        0
+591     2.0  1.0  37.00                      1.0                      0.0   26.0000                                                             Mr. John Henry Chapman        0
+592     3.0  1.0  36.00                      1.0                      1.0   24.1500                                                         Mr. Jean Baptiste Van Impe        0
+593     2.0  0.0  31.00                      0.0                      0.0   33.0000                                                          Miss. Jessie Wills Leitch        1
+594     3.0  1.0  49.00                      0.0                      0.0    0.0000                                                                 Mr. Alfred Johnson        0
+595     3.0  1.0  18.00                      0.0                      0.0    7.2250                                                                   Mr. Hanna Boulos        0
+596     1.0  1.0  49.00                      1.0                      0.0   56.9292                                                      Sir. Cosmo Edmund Duff Gordon        1
+597     2.0  0.0  24.00                      2.0                      1.0   27.0000                                 Mrs. Sidney Samuel (Amy Frances Christy) Jacobsohn        1
+598     3.0  1.0  42.00                      0.0                      0.0    7.8958                                                                Mr. Petco Slabenoff        0
+599     1.0  1.0  37.00                      0.0                      0.0   42.4000                                                           Mr. Charles H Harrington        0
+600     3.0  1.0  44.00                      0.0                      0.0    8.0500                                                           Mr. Ernst William Torber        0
+601     1.0  1.0  35.00                      0.0                      0.0   26.5500                                                                    Mr. Harry Homer        1
+602     3.0  1.0  36.00                      1.0                      0.0   15.5500                                                       Mr. Edvard Bengtsson Lindell        0
+603     3.0  1.0  30.00                      0.0                      0.0    7.8958                                                                   Mr. Milan Karaic        0
+604     1.0  1.0  27.00                      0.0                      0.0   30.5000                                                         Mr. Robert Williams Daniel        1
+605     2.0  0.0  22.00                      1.0                      2.0   41.5792                               Mrs. Joseph (Juliette Marie Louise Lafargue) Laroche        1
+606     1.0  0.0  40.00                      0.0                      0.0  153.4625                                                           Miss. Elizabeth W Shutes        1
+607     3.0  0.0  39.00                      1.0                      5.0   31.2750                           Mrs. Anders Johan (Alfrida Konstantia Brogren) Andersson        0
+608     3.0  1.0  21.00                      0.0                      0.0    7.0500                                                               Mr. Jose Neto Jardin        0
+609     3.0  0.0  18.00                      1.0                      0.0   15.5000                                                         Miss. Margaret Jane Murphy        1
+610     3.0  1.0  22.00                      0.0                      0.0    7.7500                                                                    Mr. John Horgan        0
+611     3.0  1.0  35.00                      0.0                      0.0    8.0500                                                     Mr. William Alfred Brocklebank        0
+612     2.0  0.0  24.00                      1.0                      2.0   65.0000                                                                 Miss. Alice Herman        1
+613     3.0  1.0  34.00                      1.0                      1.0   14.4000                                                           Mr. Ernst Gilbert Danbom        0
+614     3.0  0.0  26.00                      1.0                      0.0   16.1000                                     Mrs. William Arthur (Cordelia K Stanlick) Lobb        0
+615     2.0  0.0   4.00                      2.0                      1.0   39.0000                                                         Miss. Marion Louise Becker        1
+616     2.0  1.0  26.00                      0.0                      0.0   10.5000                                                                 Mr. Lawrence Gavey        0
+617     3.0  1.0  27.00                      1.0                      0.0   14.4542                                                                 Mr. Antoni Yasbeck        0
+618     1.0  1.0  42.00                      1.0                      0.0   52.5542                                                        Mr. Edwin Nelson Jr Kimball        1
+619     3.0  1.0  20.00                      1.0                      1.0   15.7417                                                                    Mr. Sahid Nakid        1
+620     3.0  1.0  21.00                      0.0                      0.0    7.8542                                                         Mr. Henry Damsgaard Hansen        0
+621     3.0  1.0  21.00                      0.0                      0.0   16.1000                                                               Mr. David John Bowen        0
+622     1.0  1.0  61.00                      0.0                      0.0   32.3208                                                               Mr. Frederick Sutton        0
+623     2.0  1.0  57.00                      0.0                      0.0   12.3500                                                      Rev. Charles Leonard Kirkland        0
+624     1.0  0.0  21.00                      0.0                      0.0   77.9583                                                       Miss. Gretchen Fiske Longley        1
+625     3.0  1.0  26.00                      0.0                      0.0    7.8958                                                           Mr. Guentcho Bostandyeff        0
+626     3.0  1.0  18.00                      0.0                      0.0    7.7333                                                            Mr. Patrick D O'Connell        0
+627     1.0  1.0  80.00                      0.0                      0.0   30.0000                                                Mr. Algernon Henry Wilson Barkworth        1
+628     3.0  1.0  51.00                      0.0                      0.0    7.0542                                                         Mr. Johan Svensson Lundahl        0
+629     1.0  1.0  32.00                      0.0                      0.0   30.5000                                                           Dr. Max Stahelin-Maeglin        1
+630     1.0  1.0  30.00                      0.0                      0.0    0.0000                                                       Mr. William Henry Marsh Parr        0
+631     3.0  0.0   9.00                      3.0                      2.0   27.9000                                                                  Miss. Mabel Skoog        0
+632     2.0  0.0  28.00                      0.0                      0.0   13.0000                                                                   Miss. Mary Davis        1
+633     3.0  1.0  32.00                      0.0                      0.0    7.9250                                                          Mr. Antti Gustaf Leinonen        0
+634     2.0  1.0  31.00                      1.0                      1.0   26.2500                                                                 Mr. Harvey Collyer        0
+635     3.0  0.0  41.00                      0.0                      5.0   39.6875                                              Mrs. Juha (Maria Emilia Ojala) Panula        0
+636     3.0  1.0  37.00                      1.0                      0.0   16.1000                                                          Mr. Percival Thorneycroft        0
+637     3.0  1.0  20.00                      0.0                      0.0    7.8542                                                              Mr. Hans Peder Jensen        0
+638     1.0  0.0  24.00                      0.0                      0.0   69.3000                                                                Mlle. Emma Sagesser        1
+639     3.0  0.0   2.00                      3.0                      2.0   27.9000                                                       Miss. Margit Elizabeth Skoog        0
+640     3.0  1.0  32.00                      0.0                      0.0   56.4958                                                                     Mr. Choong Foo        1
+641     3.0  0.0   0.75                      2.0                      1.0   19.2583                                                              Miss. Eugenie Baclini        1
+642     1.0  1.0  48.00                      1.0                      0.0   76.7292                                                           Mr. Henry Sleeper Harper        1
+643     3.0  1.0  19.00                      0.0                      0.0    7.8958                                                                   Mr. Liudevit Cor        0
+644     1.0  1.0  56.00                      0.0                      0.0   35.5000                                                 Col. Oberst Alfons Simonius-Blumer        1
+645     3.0  1.0  21.00                      0.0                      0.0    7.5500                                                                  Mr. Edward Willey        0
+646     3.0  0.0  23.00                      0.0                      0.0    7.5500                                                     Miss. Amy Zillah Elsie Stanley        1
+647     3.0  1.0  23.00                      0.0                      0.0    7.8958                                                                   Mr. Mito Mitkoff        0
+648     2.0  0.0  18.00                      0.0                      1.0   23.0000                                                                 Miss. Elsie Doling        1
+649     3.0  1.0  21.00                      0.0                      0.0    8.4333                                                      Mr. Johannes Halvorsen Kalvik        0
+650     3.0  0.0  16.00                      0.0                      0.0    7.8292                                                               Miss. Hanora O'Leary        1
+651     3.0  0.0  18.00                      0.0                      0.0    6.7500                                                               Miss. Hanora Hegarty        0
+652     2.0  1.0  24.00                      2.0                      0.0   73.5000                                                           Mr. Leonard Mark Hickman        0
+653     3.0  1.0  27.00                      0.0                      0.0    7.8958                                                               Mr. Alexander Radeff        0
+654     3.0  0.0  32.00                      1.0                      1.0   15.5000                                                       Mrs. John (Catherine) Bourke        0
+655     2.0  1.0  23.00                      0.0                      0.0   13.0000                                                        Mr. George Floyd Eitemiller        0
+656     1.0  1.0  58.00                      0.0                      2.0  113.2750                                                          Mr. Arthur Webster Newell        0
+657     1.0  1.0  50.00                      2.0                      0.0  133.6500                                                       Dr. Henry William Frauenthal        1
+658     3.0  1.0  40.00                      0.0                      0.0    7.2250                                                                   Mr. Mohamed Badt        0
+659     1.0  1.0  47.00                      0.0                      0.0   25.5875                                                          Mr. Edward Pomeroy Colley        0
+660     3.0  1.0  36.00                      0.0                      0.0    7.4958                                                                    Mr. Peju Coleff        0
+661     3.0  1.0  20.00                      1.0                      0.0    7.9250                                                         Mr. Eino William Lindqvist        1
+662     2.0  1.0  32.00                      2.0                      0.0   73.5000                                                                  Mr. Lewis Hickman        0
+663     2.0  1.0  25.00                      0.0                      0.0   13.0000                                                         Mr. Reginald Fenton Butler        0
+664     3.0  1.0  49.00                      0.0                      0.0    7.7750                                                          Mr. Knud Paust Rommetvedt        0
+665     3.0  1.0  43.00                      0.0                      0.0    8.0500                                                                     Mr. Jacob Cook        0
+666     1.0  0.0  48.00                      1.0                      0.0   52.0000                                   Mrs. Elmer Zebley (Juliet Cummins Wright) Taylor        1
+667     2.0  0.0  40.00                      1.0                      1.0   39.0000                       Mrs. Thomas William Solomon (Elizabeth Catherine Ford) Brown        1
+668     1.0  1.0  31.00                      1.0                      0.0   52.0000                                                              Mr. Thornton Davidson        0
+669     2.0  1.0  70.00                      0.0                      0.0   10.5000                                                         Mr. Henry Michael Mitchell        0
+670     2.0  1.0  31.00                      0.0                      0.0   13.0000                                                               Mr. Charles Wilhelms        1
+671     2.0  1.0  19.00                      0.0                      0.0    0.0000                                                          Mr. Ennis Hastings Watson        0
+672     3.0  1.0  18.00                      0.0                      0.0    7.7750                                                      Mr. Gustaf Hjalmar Edvardsson        0
+673     3.0  1.0  24.50                      0.0                      0.0    8.0500                                                       Mr. Frederick Charles Sawyer        0
+674     3.0  0.0  18.00                      0.0                      0.0    9.8417                                                             Miss. Anna Sofia Turja        1
+675     3.0  0.0  43.00                      1.0                      6.0   46.9000                                             Mrs. Frederick (Augusta Tyler) Goodwin        0
+676     1.0  1.0  36.00                      0.0                      1.0  512.3292                                                  Mr. Thomas Drake Martinez Cardeza        1
+677     3.0  0.0  28.00                      0.0                      0.0    8.1375                                                                 Miss. Katie Peters        0
+678     1.0  1.0  27.00                      0.0                      0.0   76.7292                                                                  Mr. Hammad Hassab        1
+679     3.0  1.0  20.00                      0.0                      0.0    9.2250                                                         Mr. Thor Anderson Olsvigen        0
+680     3.0  1.0  14.00                      5.0                      2.0   46.9000                                                         Mr. Charles Edward Goodwin        0
+681     2.0  1.0  60.00                      1.0                      1.0   39.0000                                                   Mr. Thomas William Solomon Brown        0
+682     2.0  1.0  25.00                      1.0                      2.0   41.5792                                              Mr. Joseph Philippe Lemercier Laroche        0
+683     3.0  1.0  14.00                      4.0                      1.0   39.6875                                                            Mr. Jaako Arnold Panula        0
+684     3.0  1.0  19.00                      0.0                      0.0   10.1708                                                                   Mr. Branko Dakic        0
+685     3.0  1.0  18.00                      0.0                      0.0    7.7958                                                     Mr. Eberhard Thelander Fischer        0
+686     1.0  0.0  15.00                      0.0                      1.0  211.3375                                                   Miss. Georgette Alexandra Madill        1
+687     1.0  1.0  31.00                      1.0                      0.0   57.0000                                                             Mr. Albert Adrian Dick        1
+688     3.0  0.0   4.00                      0.0                      1.0   13.4167                                                                  Miss. Manca Karun        1
+689     3.0  1.0  37.00                      0.0                      0.0   56.4958                                                                        Mr. Ali Lam        1
+690     3.0  1.0  25.00                      0.0                      0.0    7.2250                                                                    Mr. Khalil Saad        0
+691     1.0  1.0  60.00                      0.0                      0.0   26.5500                                                                     Col. John Weir        0
+692     2.0  1.0  52.00                      0.0                      0.0   13.5000                                                          Mr. Charles Henry Chapman        0
+693     3.0  1.0  44.00                      0.0                      0.0    8.0500                                                                    Mr. James Kelly        0
+694     3.0  0.0  19.00                      0.0                      0.0    7.7333                                                            Miss. Katherine Mullens        1
+695     1.0  1.0  49.00                      1.0                      1.0  110.8833                                                            Mr. John Borland Thayer        0
+696     3.0  1.0  42.00                      0.0                      0.0    7.6500                                            Mr. Adolf Mathias Nicolai Olsen Humblen        0
+697     1.0  0.0  18.00                      1.0                      0.0  227.5250                                   Mrs. John Jacob (Madeleine Talmadge Force) Astor        1
+698     1.0  1.0  35.00                      0.0                      0.0   26.2875                                                    Mr. Spencer Victor Silverthorne        1
+699     3.0  0.0  18.00                      0.0                      1.0   14.4542                                                               Miss. Saiide Barbara        0
+700     3.0  1.0  25.00                      0.0                      0.0    7.7417                                                               Mr. Martin Gallagher        0
+701     3.0  1.0  26.00                      1.0                      0.0    7.8542                                                             Mr. Henrik Juul Hansen        0
+702     2.0  1.0  39.00                      0.0                      0.0   26.0000                                                            Mr. Henry Samuel Morley        0
+703     2.0  0.0  45.00                      0.0                      0.0   13.5000                                                                Mrs. Florence Kelly        1
+704     1.0  1.0  42.00                      0.0                      0.0   26.2875                                                   Mr. Edward Pennington Calderhead        1
+705     1.0  0.0  22.00                      0.0                      0.0  151.5500                                                                Miss. Alice Cleaver        1
+706     3.0  1.0   4.00                      1.0                      1.0   15.2458                                                      Master. Halim Gonios Moubarek        1
+707     1.0  0.0  24.00                      0.0                      0.0   49.5042                                                        Mlle. Berthe Antonine Mayne        1
+708     1.0  1.0  41.00                      0.0                      0.0   26.5500                                                                  Mr. Herman Klaber        0
+709     1.0  1.0  48.00                      1.0                      0.0   52.0000                                                            Mr. Elmer Zebley Taylor        1
+710     3.0  1.0  29.00                      0.0                      0.0    9.4833                                                          Mr. August Viktor Larsson        0
+711     2.0  1.0  52.00                      0.0                      0.0   13.0000                                                               Mr. Samuel Greenberg        0
+712     3.0  1.0  19.00                      0.0                      0.0    7.6500                                          Mr. Peter Andreas Lauritz Andersen Soholt        0
+713     1.0  0.0  38.00                      0.0                      0.0  227.5250                                                       Miss. Caroline Louise Endres        1
+714     2.0  0.0  27.00                      0.0                      0.0   10.5000                                                          Miss. Edwina Celia Troutt        1
+715     3.0  1.0  33.00                      0.0                      0.0    7.7750                                                        Mr. Malkolm Joackim Johnson        0
+716     2.0  0.0   6.00                      0.0                      1.0   33.0000                                                          Miss. Annie Jessie Harper        1
+717     3.0  1.0  17.00                      1.0                      0.0    7.0542                                                           Mr. Svend Lauritz Jensen        0
+718     2.0  1.0  34.00                      0.0                      0.0   13.0000                                                        Mr. William Henry Gillespie        0
+719     2.0  1.0  50.00                      0.0                      0.0   13.0000                                                             Mr. Henry Price Hodges        0
+720     1.0  1.0  27.00                      1.0                      0.0   53.1000                                                       Mr. Norman Campbell Chambers        1
+721     3.0  1.0  20.00                      0.0                      0.0    8.6625                                                                 Mr. Luka Oreskovic        0
+722     2.0  0.0  30.00                      3.0                      0.0   21.0000                                         Mrs. Peter Henry (Lillian Jefferys) Renouf        1
+723     3.0  0.0  28.00                      0.0                      0.0    7.7375                                                            Miss. Margareth Mannion        1
+724     2.0  1.0  25.00                      1.0                      0.0   26.0000                                                     Mr. Kurt Arnold Gottfrid Bryhl        0
+725     3.0  0.0  25.00                      1.0                      0.0    7.9250                                                       Miss. Pieta Sofia Ilmakangas        0
+726     1.0  0.0  29.00                      0.0                      0.0  211.3375                                                       Miss. Elisabeth Walton Allen        1
+727     3.0  1.0  11.00                      0.0                      0.0   18.7875                                                            Mr. Houssein G N Hassan        0
+728     2.0  1.0  41.00                      0.0                      0.0    0.0000                                                                Mr. Robert J Knight        0
+729     2.0  1.0  23.00                      0.0                      0.0   13.0000                                                          Mr. William John Berriman        0
+730     2.0  1.0  23.00                      0.0                      0.0   13.0000                                                        Mr. Moses Aaron Troupiansky        0
+731     3.0  1.0  28.50                      0.0                      0.0   16.1000                                                                Mr. Leslie Williams        0
+732     3.0  0.0  48.00                      1.0                      3.0   34.3750                                             Mrs. Edward (Margaret Ann Watson) Ford        0
+733     1.0  1.0  35.00                      0.0                      0.0  512.3292                                                              Mr. Gustave J Lesurer        1
+734     3.0  1.0  20.00                      0.0                      0.0    7.8958                                                                  Mr. Kanio Ivanoff        0
+735     3.0  1.0  32.00                      0.0                      0.0    7.8958                                                                  Mr. Minko Nankoff        0
+736     1.0  1.0  45.00                      0.0                      0.0   30.0000                                                         Mr. Walter James Hawksford        1
+737     1.0  1.0  36.00                      1.0                      0.0   78.8500                                                       Mr. Tyrell William Cavendish        0
+738     1.0  0.0  21.00                      2.0                      2.0  262.3750                                                         Miss. Susan Parker Ryerson        1
+739     3.0  1.0  24.00                      1.0                      0.0   16.1000                                                                   Mr. Neal McNamee        0
+740     3.0  1.0  31.00                      0.0                      0.0    7.9250                                                                  Mr. Juho Stranden        1
+741     1.0  1.0  70.00                      1.0                      1.0   71.0000                                                        Capt. Edward Gifford Crosby        0
+742     3.0  1.0  16.00                      1.0                      1.0   20.2500                                                         Mr. Rossmore Edward Abbott        0
+743     2.0  0.0  30.00                      0.0                      0.0   13.0000                                                               Miss. Anna Sinkkonen        1
+744     1.0  1.0  19.00                      1.0                      0.0   53.1000                                                           Mr. Daniel Warner Marvin        0
+745     3.0  1.0  31.00                      0.0                      0.0    7.7500                                                             Mr. Michael Connaghton        0
+746     2.0  0.0   4.00                      1.0                      1.0   23.0000                                                                   Miss. Joan Wells        1
+747     3.0  1.0   6.00                      0.0                      1.0   12.4750                                                                 Master. Meier Moor        1
+748     3.0  1.0  33.00                      0.0                      0.0    9.5000                                                    Mr. Johannes Joseph Vande Velde        0
+749     3.0  1.0  23.00                      0.0                      0.0    7.8958                                                                  Mr. Lalio Jonkoff        0
+750     2.0  0.0  48.00                      1.0                      2.0   65.0000                                                    Mrs. Samuel (Jane Laver) Herman        1
+751     2.0  1.0   0.67                      1.0                      1.0   14.5000                                                           Master. Viljo Hamalainen        1
+752     3.0  1.0  28.00                      0.0                      0.0    7.7958                                                        Mr. August Sigfrid Carlsson        0
+753     2.0  1.0  18.00                      0.0                      0.0   11.5000                                                            Mr. Percy Andrew Bailey        0
+754     3.0  1.0  34.00                      0.0                      0.0    8.0500                                                        Mr. Thomas Leonard Theobald        0
+755     1.0  0.0  33.00                      0.0                      0.0   86.5000                            the Countess. of (Lucy Noel Martha Dyer-Edwards) Rothes        1
+756     3.0  1.0  23.00                      0.0                      0.0   14.5000                                                                  Mr. John Garfirth        0
+757     3.0  1.0  41.00                      0.0                      0.0    7.1250                                                      Mr. Iisakki Antino Aijo Nirva        0
+758     3.0  1.0  20.00                      0.0                      0.0    7.2292                                                               Mr. Hanna Assi Barah        1
+759     1.0  0.0  36.00                      1.0                      2.0  120.0000                                           Mrs. William Ernest (Lucile Polk) Carter        1
+760     3.0  1.0  16.00                      0.0                      0.0    7.7750                                                              Mr. Hans Linus Eklund        0
+761     1.0  0.0  51.00                      1.0                      0.0   77.9583                                                Mrs. John C (Anna Andrews) Hogeboom        1
+762     1.0  1.0  46.00                      0.0                      0.0   39.6000                                                           Dr. Arthur Jackson Brewe        0
+763     3.0  0.0  30.50                      0.0                      0.0    7.7500                                                                  Miss. Mary Mangan        0
+764     3.0  1.0  28.00                      1.0                      0.0   24.1500                                                                 Mr. Daniel J Moran        0
+765     3.0  1.0  32.00                      0.0                      0.0    8.3625                                                    Mr. Daniel Danielsen Gronnestad        0
+766     3.0  1.0  24.00                      0.0                      0.0    9.5000                                                              Mr. Rene Aime Lievens        0
+767     3.0  1.0  48.00                      0.0                      0.0    7.8542                                                             Mr. Niels Peder Jensen        0
+768     2.0  0.0  57.00                      0.0                      0.0   10.5000                                                                   Mrs. (Mary) Mack        0
+769     3.0  1.0  29.00                      0.0                      0.0    7.2250                                                                     Mr. Dibo Elias        0
+770     2.0  0.0  54.00                      1.0                      3.0   23.0000                                               Mrs. Elizabeth (Eliza Needs) Hocking        1
+771     3.0  1.0  18.00                      0.0                      0.0    7.7500                                             Mr. Pehr Fabian Oliver Malkolm Myhrman        0
+772     3.0  1.0  20.00                      0.0                      0.0    7.7500                                                                    Mr. Roger Tobin        0
+773     3.0  0.0   5.00                      0.0                      0.0   12.4750                                                       Miss. Virginia Ethel Emanuel        1
+774     3.0  1.0  22.00                      0.0                      0.0    7.7375                                                             Mr. Thomas J Kilgannon        0
+775     1.0  0.0  43.00                      0.0                      1.0  211.3375                               Mrs. Edward Scott (Elisabeth Walton McMillan) Robert        1
+776     3.0  0.0  13.00                      0.0                      0.0    7.2292                                                                Miss. Banoura Ayoub        1
+777     1.0  0.0  17.00                      1.0                      0.0   57.0000                                           Mrs. Albert Adrian (Vera Gillespie) Dick        1
+778     1.0  1.0  29.00                      0.0                      0.0   30.0000                                                              Mr. Milton Clyde Long        0
+779     3.0  1.0  35.00                      1.0                      2.0   23.4500                                                              Mr. Andrew G Johnston        0
+780     3.0  1.0  25.00                      0.0                      0.0    7.0500                                                                    Mr. William Ali        0
+781     3.0  1.0  25.00                      0.0                      0.0    7.2500                                                  Mr. Abraham (David Lishin) Harmer        0
+782     3.0  0.0  18.00                      0.0                      0.0    7.4958                                                           Miss. Anna Sofia Sjoblom        1
+783     3.0  1.0   8.00                      4.0                      1.0   29.1250                                                           Master. George Hugh Rice        0
+784     3.0  1.0   1.00                      1.0                      2.0   20.5750                                                          Master. Bertram Vere Dean        1
+785     1.0  1.0  46.00                      0.0                      0.0   79.2000                                                            Mr. Benjamin Guggenheim        0
+786     3.0  1.0  20.00                      0.0                      0.0    7.7500                                                                   Mr. Andrew Keane        0
+787     2.0  1.0  16.00                      0.0                      0.0   26.0000                                                                 Mr. Alfred Gaskell        0
+788     3.0  0.0  21.00                      8.0                      2.0   69.5500                                                             Miss. Stella Anna Sage        0
+789     1.0  1.0  43.00                      0.0                      0.0   30.6958                                                            Mr. William Fisher Hoyt        0
+790     3.0  1.0  25.00                      0.0                      0.0    7.8958                                                               Mr. Ristiu Dantcheff        0
+791     2.0  1.0  39.00                      0.0                      0.0   13.0000                                                                  Mr. Richard Otter        0
+792     1.0  0.0  49.00                      0.0                      0.0   25.9292                                                         Dr. Alice (Farnham) Leader        1
+793     3.0  0.0  31.00                      0.0                      0.0    8.6833                                                                    Mrs. Mara Osman        1
+794     3.0  1.0  30.00                      0.0                      0.0    7.2292                                                        Mr. Yousseff Ibrahim Shawah        0
+795     3.0  0.0  30.00                      1.0                      1.0   24.1500                                Mrs. Jean Baptiste (Rosalie Paula Govaert) Van Impe        0
+796     2.0  1.0  34.00                      0.0                      0.0   13.0000                                                                Mr. Martin Ponesell        0
+797     2.0  0.0  31.00                      1.0                      1.0   26.2500                                         Mrs. Harvey (Charlotte Annie Tate) Collyer        1
+798     1.0  1.0  11.00                      1.0                      2.0  120.0000                                                 Master. William Thornton II Carter        1
+799     3.0  1.0   0.42                      0.0                      1.0    8.5167                                                     Master. Assad Alexander Thomas        1
+800     3.0  1.0  27.00                      0.0                      0.0    6.9750                                                             Mr. Oskar Arvid Hedman        1
+801     3.0  1.0  31.00                      0.0                      0.0    7.7750                                                           Mr. Karl Johan Johansson        0
+802     1.0  1.0  39.00                      0.0                      0.0    0.0000                                                              Mr. Thomas Jr Andrews        0
+803     3.0  0.0  18.00                      0.0                      0.0    7.7750                                                     Miss. Ellen Natalia Pettersson        0
+804     2.0  1.0  39.00                      0.0                      0.0   13.0000                                                                   Mr. August Meyer        0
+805     1.0  0.0  33.00                      1.0                      0.0   53.1000                                      Mrs. Norman Campbell (Bertha Griggs) Chambers        1
+806     3.0  1.0  26.00                      0.0                      0.0    7.8875                                                              Mr. William Alexander        0
+807     3.0  1.0  39.00                      0.0                      0.0   24.1500                                                                   Mr. James Lester        0
+808     2.0  1.0  35.00                      0.0                      0.0   10.5000                                                           Mr. Richard James Slemen        0
+809     3.0  0.0   6.00                      4.0                      2.0   31.2750                                                  Miss. Ebba Iris Alfrida Andersson        0
+810     3.0  1.0  30.50                      0.0                      0.0    8.0500                                                          Mr. Ernest Portage Tomlin        0
+811     1.0  1.0  39.00                      0.0                      0.0    0.0000                                                                    Mr. Richard Fry        0
+812     3.0  0.0  23.00                      0.0                      0.0    7.9250                                                        Miss. Wendla Maria Heininen        0
+813     2.0  1.0  31.00                      1.0                      1.0   37.0042                                                                  Mr. Albert Mallet        0
+814     3.0  1.0  43.00                      0.0                      0.0    6.4500                                                    Mr. John Fredrik Alexander Holm        0
+815     3.0  1.0  10.00                      3.0                      2.0   27.9000                                                        Master. Karl Thorsten Skoog        0
+816     1.0  0.0  52.00                      1.0                      1.0   93.5000                                  Mrs. Charles Melville (Clara Jennings Gregg) Hays        1
+817     3.0  1.0  27.00                      0.0                      0.0    8.6625                                                                   Mr. Nikola Lulic        1
+818     1.0  1.0  38.00                      0.0                      0.0    0.0000                                                     Jonkheer. John George Reuchlin        0
+819     3.0  0.0  27.00                      0.0                      1.0   12.4750                                                                  Mrs. (Beila) Moor        1
+820     3.0  1.0   2.00                      4.0                      1.0   39.6875                                                        Master. Urho Abraham Panula        0
+821     3.0  1.0  36.00                      0.0                      0.0    6.9500                                                                     Mr. John Flynn        0
+822     3.0  1.0  23.00                      0.0                      0.0   56.4958                                                                        Mr. Len Lam        0
+823     2.0  1.0   1.00                      0.0                      2.0   37.0042                                                               Master. Andre Mallet        1
+824     3.0  1.0  19.00                      0.0                      0.0    7.7500                                                        Mr. Thomas Joseph McCormack        1
+825     1.0  0.0  62.00                      0.0                      0.0   80.0000                                           Mrs. George Nelson (Martha Evelyn) Stone        1
+826     3.0  0.0  15.00                      1.0                      0.0   14.4542                                             Mrs. Antoni (Selini Alexander) Yasbeck        1
+827     2.0  1.0   0.83                      1.0                      1.0   18.7500                                                     Master. George Sibley Richards        1
+828     3.0  1.0  30.00                      0.0                      0.0    7.2292                                                                      Mr. Amin Saad        0
+829     3.0  1.0  23.00                      0.0                      0.0    7.8542                                                              Mr. Albert Augustsson        0
+830     3.0  1.0  18.00                      0.0                      0.0    8.3000                                                              Mr. Owen George Allum        0
+831     1.0  0.0  39.00                      1.0                      1.0   83.1583                                                         Miss. Sara Rebecca Compton        1
+832     3.0  1.0  21.00                      0.0                      0.0    8.6625                                                                    Mr. Jakob Pasic        0
+833     3.0  1.0  20.00                      0.0                      0.0    8.0500                                                                 Mr. Maurice Sirota        0
+834     3.0  1.0  32.00                      0.0                      0.0   56.4958                                                                     Mr. Chang Chip        1
+835     1.0  1.0  29.00                      0.0                      0.0   29.7000                                                                Mr. Pierre Marechal        1
+836     3.0  1.0  20.00                      0.0                      0.0    7.9250                                                         Mr. Ilmari Rudolf Alhomaki        0
+837     2.0  1.0  16.00                      0.0                      0.0   10.5000                                                            Mr. Thomas Charles Mudd        0
+838     1.0  0.0  30.00                      0.0                      0.0   31.0000                                                             Miss. Augusta Serepeca        1
+839     3.0  1.0  34.50                      0.0                      0.0    6.4375                                                          Mr. Peter L Lemberopolous        0
+840     3.0  1.0  17.00                      0.0                      0.0    8.6625                                                                 Mr. Jeso Culumovic        0
+841     3.0  1.0  42.00                      0.0                      0.0    7.5500                                                                 Mr. Anthony Abbing        0
+842     3.0  1.0  18.00                      8.0                      2.0   69.5500                                                            Mr. Douglas Bullen Sage        0
+843     3.0  1.0  35.00                      0.0                      0.0    7.8958                                                                  Mr. Marin Markoff        0
+844     2.0  1.0  28.00                      0.0                      1.0   33.0000                                                                   Rev. John Harper        0
+845     1.0  0.0  40.00                      1.0                      0.0   89.1042                                        Mrs. Samuel L (Edwiga Grabowska) Goldenberg        1
+846     3.0  1.0   4.00                      4.0                      2.0   31.2750                                             Master. Sigvard Harald Elias Andersson        0
+847     3.0  1.0  74.00                      0.0                      0.0    7.7750                                                                 Mr. Johan Svensson        0
+848     3.0  0.0   9.00                      1.0                      1.0   15.2458                                                             Miss. Nourelain Boulos        0
+849     1.0  0.0  16.00                      0.0                      1.0   39.4000                                                           Miss. Mary Conover Lines        1
+850     2.0  0.0  44.00                      1.0                      0.0   26.0000                                       Mrs. Ernest Courtenay (Lilian Hughes) Carter        0
+851     3.0  0.0  18.00                      0.0                      1.0    9.3500                                                          Mrs. Sam (Leah Rosen) Aks        1
+852     1.0  0.0  45.00                      1.0                      1.0  164.8667                                          Mrs. George Dennick (Mary Hitchcock) Wick        1
+853     1.0  1.0  51.00                      0.0                      0.0   26.5500                                                               Mr. Peter Denis Daly        1
+854     3.0  0.0  24.00                      0.0                      3.0   19.2583                                               Mrs. Solomon (Latifa Qurban) Baclini        1
+855     3.0  1.0  30.00                      0.0                      0.0    7.2292                                                                    Mr. Raihed Razi        0
+856     3.0  1.0  41.00                      2.0                      0.0   14.1083                                                             Mr. Claus Peter Hansen        0
+857     2.0  1.0  21.00                      1.0                      0.0   11.5000                                                         Mr. Frederick Edward Giles        0
+858     1.0  0.0  48.00                      0.0                      0.0   25.9292                                 Mrs. Frederick Joel (Margaret Welles Barron) Swift        1
+859     3.0  0.0  14.00                      8.0                      2.0   69.5500                                                           Miss. Dorothy Edith Sage        0
+860     2.0  1.0  24.00                      0.0                      0.0   13.0000                                                              Mr. John William Gill        0
+861     2.0  0.0  42.00                      0.0                      0.0   13.0000                                                            Mrs. (Karolina) Bystrom        1
+862     2.0  0.0  27.00                      1.0                      0.0   13.8583                                                        Miss. Asuncion Duran y More        1
+863     1.0  1.0  31.00                      0.0                      0.0   50.4958                                                Mr. Washington Augustus II Roebling        0
+864     3.0  1.0  23.00                      0.0                      0.0    9.5000                                                         Mr. Philemon van Melkebeke        0
+865     3.0  1.0   4.00                      1.0                      1.0   11.1333                                                     Master. Harold Theodor Johnson        1
+866     3.0  1.0  26.00                      0.0                      0.0    7.8958                                                                   Mr. Cerin Balkic        0
+867     1.0  0.0  47.00                      1.0                      1.0   52.5542                                    Mrs. Richard Leonard (Sallie Monypeny) Beckwith        1
+868     1.0  1.0  33.00                      0.0                      0.0    5.0000                                                            Mr. Frans Olof Carlsson        0
+869     3.0  1.0  47.00                      0.0                      0.0    9.0000                                                         Mr. Victor Vander Cruyssen        0
+870     2.0  0.0  28.00                      1.0                      0.0   24.0000                                               Mrs. Samuel (Hannah Wizosky) Abelson        1
+871     3.0  0.0  15.00                      0.0                      0.0    7.2250                                                           Miss. Adele Kiamie Najib        1
+872     3.0  1.0  20.00                      0.0                      0.0    9.8458                                                       Mr. Alfred Ossian Gustafsson        0
+873     3.0  1.0  19.00                      0.0                      0.0    7.8958                                                                Mr. Nedelio Petroff        0
+874     3.0  1.0  23.00                      0.0                      0.0    7.8958                                                                  Mr. Kristo Laleff        0
+875     1.0  0.0  56.00                      0.0                      1.0   83.1583                                       Mrs. Thomas Jr (Lily Alexenia Wilson) Potter        1
+876     2.0  0.0  25.00                      0.0                      1.0   26.0000                                        Mrs. William (Imanita Parrish Hall) Shelley        1
+877     3.0  1.0  33.00                      0.0                      0.0    7.8958                                                                  Mr. Johann Markun        0
+878     3.0  0.0  22.00                      0.0                      0.0   10.5167                                                        Miss. Gerda Ulrika Dahlberg        0
+879     2.0  1.0  28.00                      0.0                      0.0   10.5000                                                       Mr. Frederick James Banfield        0
+880     3.0  1.0  25.00                      0.0                      0.0    7.0500                                                              Mr. Henry Jr Sutehall        0
+881     3.0  0.0  39.00                      0.0                      5.0   29.1250                                                Mrs. William (Margaret Norton) Rice        0
+882     2.0  1.0  27.00                      0.0                      0.0   13.0000                                                               Rev. Juozas Montvila        0
+883     1.0  0.0  19.00                      0.0                      0.0   30.0000                                                        Miss. Margaret Edith Graham        1
+884     3.0  0.0   7.00                      1.0                      2.0   23.4500                                                     Miss. Catherine Helen Johnston        0
+885     1.0  1.0  26.00                      0.0                      0.0   30.0000                                                               Mr. Karl Howell Behr        1
+886     3.0  1.0  32.00                      0.0                      0.0    7.7500                                                                 Mr. Patrick Dooley        0
