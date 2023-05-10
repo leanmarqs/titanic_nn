@@ -18,6 +18,7 @@ data, weights = prepare_data('dataset/titanic_original.csv')
 # Split the data into training and testing sets
 train_data, test_data = train_test_split(data, test_size=0.2)
 
+# this function put data indexes in correct crescent order.
 train_data = reindex_dataframe(train_data)
 test_data = reindex_dataframe(test_data)
 
