@@ -5,6 +5,7 @@ import random as rg
 rg = np.random.default_rng()
 
 
+# generate random data values.
 def generate_data(n_features, n_values):
     features = rg.random((n_features, n_values))
     weights = rg.random((1, n_values))[0]
