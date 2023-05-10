@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import random as rg
 
+from matplotlib import pyplot as plt
+
 rg = np.random.default_rng()
 
 
@@ -69,3 +71,35 @@ def update_weights(weights, l_rate, target, prediction, feature):
 
 def update_bias(bias, l_rate, target, prediction):
     return bias + l_rate * (target - prediction)
+
+
+def test_model(data, weights, bias):
+    correct = 0
+    for i in range(len(data)):
+        feature = data.loc[i][:-2]
+        target = data.loc[i][-1]
+        w_sum = get_weighted_sum(feature, weights, bias)
+        prediction = sigmoid(w_sum)
+        if prediction >= 0.5:
+            if target == 1:
+                correct += 1
+        else:
+            if target == 0:
+                correct += 1
+
+    accuracy = correct / len(data)
+    print('Accuracy:', accuracy)
+
+
+def plot_data(epochs, epoch_loss):
+    plt.plot(np.arange(epochs), epoch_loss)
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.title('Epoch Loss')
+    plt.show()
+
+
+def reindex_dataframe(df):
+    df.reset_index(drop=True, inplace=True)
+    return df
+
