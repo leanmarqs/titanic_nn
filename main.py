@@ -35,14 +35,12 @@ def train_model(data, weights, bias, l_rate, epochs):
         print('epoch ', e)
         print(average_loss)
 
-# plot epoch_loss
-    plt.plot(np.arange(epochs), epoch_loss)
-    plt.xlabel('Epochs')
-    plt.ylabel('Loss')
-    plt.title('Epoch Loss')
-    plt.show()
 
+# plot epoch_loss
+plt.plot(np.arange(epochs), epoch_loss)
+plt.xlabel('Epochs')
+plt.ylabel('Loss')
+plt.title('Epoch Loss')
+plt.show()
 
 train_model(data, weights, bias, l_rate, epochs)
-
-
