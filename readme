@@ -4,6 +4,6 @@ On April 15, 1912, the largest passenger liner ever made collided with an iceber
 
 The titanic.csv file contains data for 887 of the real Titanic passengers. Each row represents one person. The columns describe different attributes about the person including whether they  survived (S), their age (A), their passenger-class (C), their sex (G) and the fare they paid (X).
 
-This neural network try to predict if a given passager will or not die in the accident.
+This neural network try to predict if a given passager would or not die in the accident.
 
 
