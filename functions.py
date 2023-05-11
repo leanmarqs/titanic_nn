@@ -1,3 +1,6 @@
+import datetime
+import os
+
 import pandas as pd
 import numpy as np
 import random as rg
@@ -73,6 +76,61 @@ def update_bias(bias, l_rate, target, prediction):
     return bias + l_rate * (target - prediction)
 
 
+def run(train_data, test_data, weights, bias, l_rate, epochs):
+    epoch_loss, final_bias, final_weights = train_model(train_data, weights, bias, l_rate, epochs)
+    accuracy = test_model(test_data, final_weights, final_bias)
+
+    save_results(epochs, epoch_loss, final_bias, l_rate, accuracy)
+
+
+def save_results(epochs, epoch_loss, bias, l_rate, accuracy):
+    # Create directory for current run
+    now = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    run_directory = f'results/run - {now}'
+    os.makedirs(run_directory, exist_ok=True)
+
+    # Plot epoch_loss
+    plt.plot(epoch_loss, label=f"bias={bias:.10f}, l_rate={l_rate:.10f}")
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.title('Epoch Loss')
+    plt.legend()
+    # Save plot to file
+    plot_filename = f'epoch_loss_{now}.png'
+    plt.savefig(os.path.join(run_directory, plot_filename))
+    plt.show()
+
+    # Save accuracy to file
+    accuracy_filename = f'accuracy_{now}.txt'
+    with open(os.path.join(run_directory, accuracy_filename), 'w') as f:
+        f.write(f'Accuracy: {accuracy}')
+
+
+def train_model(data, weights, bias, l_rate, epochs):
+    epoch_loss = []
+    for e in range(epochs):
+        individual_loss = []
+        for i in range(len(data)):
+            # the [:-2] select the first 6 cols of the table data, where we find the features.
+            feature = data.loc[i][:-2]
+            # the [-1] select the very last col of the table data, where we find the targets.
+            target = data.loc[i][-1]
+            w_sum = get_weighted_sum(feature, weights, bias)
+            prediction = sigmoid(w_sum)
+            loss = cross_entropy(target, prediction)
+            individual_loss.append(loss)
+            # gradient descent
+            weights = update_weights(weights, l_rate, target, prediction, feature)
+            bias = update_bias(bias, l_rate, target, prediction)
+        average_loss = sum(individual_loss) / len(individual_loss)
+        epoch_loss.append(average_loss)
+        print('**********************************')
+        print('Epoch:', e)
+        print('Average Loss:', average_loss)
+
+    return epoch_loss, bias, weights
+
+
 def test_model(data, weights, bias):
     correct = 0
     for i in range(len(data)):
@@ -88,15 +146,24 @@ def test_model(data, weights, bias):
                 correct += 1
 
     accuracy = correct / len(data)
+    print('**********************************')
     print('Accuracy:', accuracy)
+    return accuracy
 
 
-def plot_data(epochs, epoch_loss):
-    plt.plot(np.arange(epochs), epoch_loss)
+def plot_data(epochs, epoch_loss, bias, l_rate, local):
+    now = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    filename = f'epoch_loss_{now}.png'
+
+    plt.plot(np.arange(epochs), epoch_loss, label=f"bias={bias:.5f}, l_rate={l_rate:.5f}")
     plt.xlabel('Epochs')
     plt.ylabel('Loss')
     plt.title('Epoch Loss')
+    plt.legend()
+    plt.savefig(local + filename)
     plt.show()
+
+    return plt
 
 
 def reindex_dataframe(df):
