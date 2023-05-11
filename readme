@@ -6,4 +6,9 @@ The titanic.csv file contains data for 887 of the real Titanic passengers. Each 
 
 This neural network try to predict if a given passager would or not die in the accident.
 
+The program can be running via command line.
+
+Ex.:  python titanic_nn.py -d dataset/titanic_original.csv -b 0.5 -r 0.000001 -e 170
+
+
 
