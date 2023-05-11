@@ -8,7 +8,9 @@ This neural network try to predict if a given passager would or not die in the a
 
 The program can be running via command line.
 
-Ex.:  python titanic_nn.py -d dataset/titanic_original.csv -b 0.5 -r 0.000001 -e 170
+Ex.:  python titanic_nn.py -d dataset/titanic_original.csv -b 0.5 -r 0.000001 -e 170, where -d is the dataset local, -b is the bias, -r is the learning rate and -e is the number of epochs.
+
+The program saves a png image of the plot showing the Average loss, and a txt containing the accurate of the test function.
 
 
 
