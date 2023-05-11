@@ -151,21 +151,6 @@ def test_model(data, weights, bias):
     return accuracy
 
 
-def plot_data(epochs, epoch_loss, bias, l_rate, local):
-    now = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-    filename = f'epoch_loss_{now}.png'
-
-    plt.plot(np.arange(epochs), epoch_loss, label=f"bias={bias:.5f}, l_rate={l_rate:.5f}")
-    plt.xlabel('Epochs')
-    plt.ylabel('Loss')
-    plt.title('Epoch Loss')
-    plt.legend()
-    plt.savefig(local + filename)
-    plt.show()
-
-    return plt
-
-
 def reindex_dataframe(df):
     df.reset_index(drop=True, inplace=True)
     return df

@@ -21,11 +21,4 @@ train_data, test_data = train_test_split(data, test_size=0.2)
 
 train_data = reindex_dataframe(train_data)
 test_data = reindex_dataframe(test_data)
-
-# train the model on the training set
-# train_model(train_data, weights, args.bias, args.l_rate, args.epochs)
-
-# test the model on the testing set
-# test_model(test_data, weights, args.bias)
-
 run(train_data, test_data, weights, args.bias, args.l_rate, args.epochs)
